@@ -1,0 +1,133 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SATrackingSDK
+import Foundation
+import Moya
+import RxCocoa
+import RxSwift
+@_exported import SATrackingSDK
+import Swift
+import _Concurrency
+public enum Events : Swift.String {
+  case no_events, add_to_cart, purchase, start_view, stop_view, viewing, ad_imp, ad_click, click, search, scroll
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol TrackerEvent {
+  func execute(options: SATrackingSDK.TrackerOptions)
+}
+public struct AddToCart : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public mutating func add(id: Swift.Int, name: Swift.String, price: Swift.Double, currency: Swift.String, category: Swift.String?, subcategory: Swift.String?)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct ECPurchase : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public mutating func add(id: Swift.Int, name: Swift.String, price: Swift.Double, currency: Swift.String, category: Swift.String?, subcategory: Swift.String?)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct StartView : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var id: Swift.Int?
+  public var name: Swift.String?
+  public var category: Swift.String?
+  public var subcategory: Swift.String?
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct StopView : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var id: Swift.Int?
+  public var name: Swift.String?
+  public var category: Swift.String?
+  public var subcategory: Swift.String?
+  public var value: Swift.Double?
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct Viewing : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var id: Swift.Int?
+  public var name: Swift.String?
+  public var category: Swift.String?
+  public var subcategory: Swift.String?
+  public var value: Swift.Double?
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct Search : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var value: Swift.String?
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct AdImp : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var placement_id: Swift.String?
+  public var width: Swift.Int?
+  public var height: Swift.Int?
+  public var href: Swift.String?
+  public var category: Swift.String?
+  public var subcategory: Swift.String?
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct AdClick : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var placement_id: Swift.String?
+  public var width: Swift.Int?
+  public var height: Swift.Int?
+  public var href: Swift.String?
+  public var category: Swift.String?
+  public var subcategory: Swift.String?
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct Scroll : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var value: Swift.Double?
+  public var category: Swift.String?
+  public var subcategory: Swift.String?
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct Click : Swift.Encodable, SATrackingSDK.TrackerEvent {
+  public var value: Swift.String?
+  public var page: Swift.String?
+  public init()
+  public func execute(options: SATrackingSDK.TrackerOptions)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct TrackerOptions {
+  public let applicationId: Swift.String
+  public let partnerId: Swift.String
+  public let uid: Swift.String
+  public let baseURL: Swift.String
+  public init(applicationId: Swift.String, partnerId: Swift.String, uid: Swift.String, baseURL: Swift.String)
+}
+@_hasMissingDesignatedInitializers public class TechTracker {
+  public static let sharedTracker: SATrackingSDK.TechTracker
+  public static func initialize(options: SATrackingSDK.TrackerOptions)
+  public func event(event: SATrackingSDK.TrackerEvent)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ApiClient {
+  @objc deinit
+}
+extension SATrackingSDK.Events : Swift.Equatable {}
+extension SATrackingSDK.Events : Swift.Hashable {}
+extension SATrackingSDK.Events : Swift.RawRepresentable {}
