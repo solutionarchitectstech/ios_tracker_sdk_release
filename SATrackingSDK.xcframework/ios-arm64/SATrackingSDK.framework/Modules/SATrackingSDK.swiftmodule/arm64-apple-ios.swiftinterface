@@ -8,6 +8,9 @@ import RxSwift
 @_exported import SATrackingSDK
 import Swift
 import _Concurrency
+@_hasMissingDesignatedInitializers public class ApiClient {
+  @objc deinit
+}
 public enum Events : Swift.String {
   case no_events, add_to_cart, purchase, start_view, stop_view, viewing, ad_imp, ad_click, click, search, scroll
   public init?(rawValue: Swift.String)
@@ -123,9 +126,6 @@ public struct TrackerOptions {
   public static let sharedTracker: SATrackingSDK.TechTracker
   public static func initialize(options: SATrackingSDK.TrackerOptions)
   public func event(event: SATrackingSDK.TrackerEvent)
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class ApiClient {
   @objc deinit
 }
 extension SATrackingSDK.Events : Swift.Equatable {}

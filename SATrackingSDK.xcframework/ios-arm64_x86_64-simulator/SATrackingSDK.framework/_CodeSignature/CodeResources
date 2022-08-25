@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ltmgbN2pla97Wuum/crH0GRyH9o=
+		CCVmSpbfMyg/Z5NpnSEhEBzeXjk=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Fw8wVutVK6El5HtM5yqHTpu7fFE=
+		cV95elEg9oDbICeatQNes/KOXgI=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tuaXNWSXPNk1aW8D+AMphojt0P0=
+		qnhIW786yzDodDW4cHecYFA5y+A=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8Ig7Ax4hUI45uLhupncu1pAKvQ0=
+		UkJg1IbEdMQSICGNB6ennYEFSbM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wyOBJdk4ok6Y0YPGMQd0UP+fgYUq6ac1rurVTPudOac=
+			AjWCenJUZtHIK4F++fI+VXXuC4BOc5vUoRBfkRS9bH4=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iQK0I7uVtzTbxh/IuwckpQK+YQ0ce88hqwlHCBLxrPw=
+			MA+UY1qDLYClDql/JW2W6p4GXgzfdZPU7ULJO4M/pVA=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H5lbGrUyUkacI9obAYFxYv02vOT2R1Kl5HXZ64McXy0=
+			QhjWq/kaotLSNeG8gbvasGuUPR3/OvuV7xEt8+iFUUU=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vRqq/U6smsBQIDVBh84LhiBkEEIdqH71JJblFeIRvLA=
+			vYhJiR6upExHbY5rPskDcG84xJhF7gjvXY6O5Mh6Et0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
