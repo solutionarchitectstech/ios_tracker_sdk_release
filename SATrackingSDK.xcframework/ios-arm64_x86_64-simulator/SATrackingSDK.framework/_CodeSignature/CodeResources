@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		biHpwIYk7RJNv9RgRjGKUgfVrFw=
+		Gd/U7fKJkjfmVtPdskmIkD8xzQI=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CCVmSpbfMyg/Z5NpnSEhEBzeXjk=
+		H3V6c6aHV8sEyRW4xAISeew1bsM=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cV95elEg9oDbICeatQNes/KOXgI=
+		8V08J5KPGEJjB+j79ZqhbRfgK2I=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qnhIW786yzDodDW4cHecYFA5y+A=
+		pZFHzy6ULAL9WB4I8+4/B0TLcrM=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UkJg1IbEdMQSICGNB6ennYEFSbM=
+		kjO8iu7gWjGK22yiN1A39IoTh+U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AjWCenJUZtHIK4F++fI+VXXuC4BOc5vUoRBfkRS9bH4=
+			q91FuHD4SRoELRQUv2FkTow/aMT/ImhXVf+338764Rg=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MA+UY1qDLYClDql/JW2W6p4GXgzfdZPU7ULJO4M/pVA=
+			ak9tg+vk95RlGjrPKuf2vbMhhLZjvYPWFOfqdMc8gzE=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QhjWq/kaotLSNeG8gbvasGuUPR3/OvuV7xEt8+iFUUU=
+			/vIJvsCYMwhWzEYkg71Ze39CVO4bglAQBVTKndCbQvM=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vYhJiR6upExHbY5rPskDcG84xJhF7gjvXY6O5Mh6Et0=
+			SYHhb8++MGBsXsytavD/4Wh22MQdxtUV5dBQvtV+LSg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

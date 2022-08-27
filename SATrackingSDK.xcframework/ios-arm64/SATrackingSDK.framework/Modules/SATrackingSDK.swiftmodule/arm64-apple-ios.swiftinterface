@@ -29,7 +29,7 @@ public struct AddToCart : Swift.Encodable, SATrackingSDK.TrackerEvent {
   public mutating func add(id: Swift.Int, name: Swift.String, price: Swift.Double, currency: Swift.String, category: Swift.String?, subcategory: Swift.String?)
   public func encode(to encoder: Swift.Encoder) throws
 }
-public struct ECPurchase : Swift.Encodable, SATrackingSDK.TrackerEvent {
+public struct Purchase : Swift.Encodable, SATrackingSDK.TrackerEvent {
   public var page: Swift.String?
   public init()
   public func execute(options: SATrackingSDK.TrackerOptions)
@@ -120,7 +120,8 @@ public struct TrackerOptions {
   public let partnerId: Swift.String
   public let uid: Swift.String
   public let baseURL: Swift.String
-  public init(applicationId: Swift.String, partnerId: Swift.String, uid: Swift.String, baseURL: Swift.String)
+  public let debugMode: Swift.Bool
+  public init(applicationId: Swift.String, partnerId: Swift.String, uid: Swift.String, baseURL: Swift.String, debugMode: Swift.Bool = false)
 }
 @_hasMissingDesignatedInitializers public class TechTracker {
   public static let sharedTracker: SATrackingSDK.TechTracker
