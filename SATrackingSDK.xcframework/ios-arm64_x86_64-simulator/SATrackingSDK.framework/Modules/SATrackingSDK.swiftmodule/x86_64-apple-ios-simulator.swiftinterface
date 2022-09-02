@@ -26,18 +26,18 @@ public struct AddToCart : Swift.Encodable, SATrackingSDK.TrackerEvent {
   public var page: Swift.String?
   public init()
   public func execute(options: SATrackingSDK.TrackerOptions)
-  public mutating func add(id: Swift.Int, name: Swift.String, price: Swift.Double, currency: Swift.String, category: Swift.String?, subcategory: Swift.String?)
+  public mutating func add(id: Swift.String, name: Swift.String, price: Swift.Double, currency: Swift.String, category: Swift.String?, subcategory: Swift.String?)
   public func encode(to encoder: Swift.Encoder) throws
 }
 public struct Purchase : Swift.Encodable, SATrackingSDK.TrackerEvent {
   public var page: Swift.String?
   public init()
   public func execute(options: SATrackingSDK.TrackerOptions)
-  public mutating func add(id: Swift.Int, name: Swift.String, price: Swift.Double, currency: Swift.String, category: Swift.String?, subcategory: Swift.String?)
+  public mutating func add(id: Swift.String, name: Swift.String, price: Swift.Double, currency: Swift.String, category: Swift.String?, subcategory: Swift.String?)
   public func encode(to encoder: Swift.Encoder) throws
 }
 public struct StartView : Swift.Encodable, SATrackingSDK.TrackerEvent {
-  public var id: Swift.Int?
+  public var id: Swift.String?
   public var name: Swift.String?
   public var category: Swift.String?
   public var subcategory: Swift.String?
@@ -47,7 +47,7 @@ public struct StartView : Swift.Encodable, SATrackingSDK.TrackerEvent {
   public func encode(to encoder: Swift.Encoder) throws
 }
 public struct StopView : Swift.Encodable, SATrackingSDK.TrackerEvent {
-  public var id: Swift.Int?
+  public var id: Swift.String?
   public var name: Swift.String?
   public var category: Swift.String?
   public var subcategory: Swift.String?
@@ -58,7 +58,7 @@ public struct StopView : Swift.Encodable, SATrackingSDK.TrackerEvent {
   public func encode(to encoder: Swift.Encoder) throws
 }
 public struct Viewing : Swift.Encodable, SATrackingSDK.TrackerEvent {
-  public var id: Swift.Int?
+  public var id: Swift.String?
   public var name: Swift.String?
   public var category: Swift.String?
   public var subcategory: Swift.String?
