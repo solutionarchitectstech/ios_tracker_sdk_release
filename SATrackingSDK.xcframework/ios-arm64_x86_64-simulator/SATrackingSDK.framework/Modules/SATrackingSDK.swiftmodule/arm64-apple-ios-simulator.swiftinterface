@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SATrackingSDK
+import Alamofire
 import Foundation
 import Moya
 import RxCocoa
@@ -121,7 +122,8 @@ public struct TrackerOptions {
   public let uid: Swift.String
   public let baseURL: Swift.String
   public let debugMode: Swift.Bool
-  public init(applicationId: Swift.String, partnerId: Swift.String, uid: Swift.String, baseURL: Swift.String, debugMode: Swift.Bool = false)
+  public let httpHeaders: [Swift.String : () -> Swift.String]?
+  public init(applicationId: Swift.String, partnerId: Swift.String, uid: Swift.String, baseURL: Swift.String, debugMode: Swift.Bool = false, httpHeaders: [Swift.String : () -> Swift.String]? = nil)
 }
 @_hasMissingDesignatedInitializers public class TechTracker {
   public static let sharedTracker: SATrackingSDK.TechTracker
