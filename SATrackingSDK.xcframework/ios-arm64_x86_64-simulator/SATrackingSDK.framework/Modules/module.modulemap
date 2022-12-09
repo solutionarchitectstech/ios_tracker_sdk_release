@@ -1,11 +1,11 @@
 framework module SATrackingSDK {
-  umbrella header "SATrackingSDK-umbrella.h"
+    umbrella header "SATrackingSDK.h"
 
-  export *
-  module * { export * }
+    export *
+    module * { export * }
 }
 
 module SATrackingSDK.Swift {
-    header "SATrackingSDK-Swift.h"
-    requires objc
+  header "SATrackingSDK-Swift.h"
+  requires objc
 }
