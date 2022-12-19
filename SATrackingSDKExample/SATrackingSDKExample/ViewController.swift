@@ -10,15 +10,10 @@ import SATrackingSDK
 
 class ViewController: UIViewController {
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     @IBAction func onAddToCart() {
-        var addtocart = AddToCart()
-        addtocart.page = "page"
-        addtocart.add(
+        var event = AddToCart()
+        event.page = "page"
+        event.add(
             id: "id",
             name: "name",
             price: 1.0,
@@ -28,13 +23,13 @@ class ViewController: UIViewController {
             quantity: 0.5
         )
 
-        TechTracker.sharedTracker.event(event: addtocart)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onPurchase() {
-        var purchase = Purchase()
-        purchase.page = "page"
-        purchase.add(
+        var event = Purchase()
+        event.page = "page"
+        event.add(
             id: "id",
             name: "name",
             price: 1.0,
@@ -44,101 +39,100 @@ class ViewController: UIViewController {
             quantity: 3.0
         )
 
-        TechTracker.sharedTracker.event(event: purchase)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onStartView() {
-        var startView = StartView()
-        startView.id = "id"
-        startView.name = "name"
-        startView.page = "page"
-        startView.category = "category"
-        startView.subcategory = "subcategory"
+        var event = StartView()
+        event.id = "id"
+        event.name = "name"
+        event.page = "page"
+        event.category = "category"
+        event.subcategory = "subcategory"
 
-        TechTracker.sharedTracker.event(event: startView)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onStopView() {
-        var stopView = StopView()
-        stopView.id = "id"
-        stopView.name = "name"
-        stopView.page = "page"
-        stopView.category = "category"
-        stopView.subcategory = "subcategory"
-        stopView.value = 1.0
+        var event = StopView()
+        event.id = "id"
+        event.name = "name"
+        event.page = "page"
+        event.category = "category"
+        event.subcategory = "subcategory"
+        event.value = 1.0
 
-        TechTracker.sharedTracker.event(event: stopView)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onViewing() {
-        var viewing = Viewing()
-        viewing.id = "id"
-        viewing.name = "name"
-        viewing.page = "page"
-        viewing.category = "category"
-        viewing.subcategory = "subcategory"
-        viewing.value = 1.0
+        var event = Viewing()
+        event.id = "id"
+        event.name = "name"
+        event.page = "page"
+        event.category = "category"
+        event.subcategory = "subcategory"
+        event.value = 1.0
 
-        TechTracker.sharedTracker.event(event: viewing)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onSearch() {
-        var search = Search()
-        search.page = "page"
-        search.value = "value"
+        var event = Search()
+        event.page = "page"
+        event.value = "value"
 
-        TechTracker.sharedTracker.event(event: search)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onAdImp() {
-        var adImp = AdImp()
-        adImp.placement_id = "placement_id"
-        adImp.page = "page"
-        adImp.href = "href"
-        adImp.height = 100
-        adImp.width = 100
-        adImp.category = "category"
-        adImp.subcategory = "subcategory"
+        var event = AdImp()
+        event.placement_id = "placement_id"
+        event.page = "page"
+        event.href = "href"
+        event.height = 100
+        event.width = 100
+        event.category = "category"
+        event.subcategory = "subcategory"
 
-        TechTracker.sharedTracker.event(event: adImp)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onAdClick() {
-        var adClick = AdClick()
-        adClick.placement_id = "placement_id"
-        adClick.page = "page"
-        adClick.href = "href"
-        adClick.height = 100
-        adClick.width = 100
-        adClick.category = "category"
-        adClick.subcategory = "subcategory"
+        var event = AdClick()
+        event.placement_id = "placement_id"
+        event.page = "page"
+        event.href = "href"
+        event.height = 100
+        event.width = 100
+        event.category = "category"
+        event.subcategory = "subcategory"
 
-        TechTracker.sharedTracker.event(event: adClick)
+        TechTracker.sharedTracker.event(event: event)
     }
 
-
     @IBAction func onScroll() {
-        var scroll = Scroll()
-        scroll.value = 1.0
-        scroll.page = "page"
-        scroll.category = "category"
-        scroll.subcategory = "subcategory"
+        var event = Scroll()
+        event.value = 1.0
+        event.page = "page"
+        event.category = "category"
+        event.subcategory = "subcategory"
 
-        TechTracker.sharedTracker.event(event: scroll)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onClick() {
-        var click = Click()
-        click.value = "value"
-        click.page = "page"
+        var event = Click()
+        event.value = "value"
+        event.page = "page"
 
-        TechTracker.sharedTracker.event(event: click)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onAddToCartCustomParams() {
-        var addtocart = AddToCart()
-        addtocart.page = "page"
-        addtocart.add(
+        var event = AddToCart()
+        event.page = "page"
+        event.add(
             id: "id1",
             name: "name1",
             price: 1.0,
@@ -151,7 +145,7 @@ class ViewController: UIViewController {
                 "custom_param2": "value2"
             ]
         )
-        addtocart.add(
+        event.add(
             id: "id2",
             name: "name2",
             price: 2.0,
@@ -164,13 +158,13 @@ class ViewController: UIViewController {
             ]
         )
 
-        TechTracker.sharedTracker.event(event: addtocart)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onPurchaseCustomParams() {
-        var purchase = Purchase()
-        purchase.page = "page"
-        purchase.add(
+        var event = Purchase()
+        event.page = "page"
+        event.add(
             id: "id1",
             name: "name1",
             price: 1.0,
@@ -183,7 +177,7 @@ class ViewController: UIViewController {
                 "custom_param2": "value2"
             ]
         )
-        purchase.add(
+        event.add(
             id: "id2",
             name: "name2",
             price: 2.0,
@@ -196,126 +190,126 @@ class ViewController: UIViewController {
             ]
         )
 
-        TechTracker.sharedTracker.event(event: purchase)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onStartViewCustomParams() {
-        var startView = StartView()
-        startView.id = "id"
-        startView.name = "name"
-        startView.page = "page"
-        startView.category = "category"
-        startView.subcategory = "subcategory"
-        startView.customParams = [
+        var event = StartView()
+        event.id = "id"
+        event.name = "name"
+        event.page = "page"
+        event.category = "category"
+        event.subcategory = "subcategory"
+        event.customParams = [
             "custom_param1": "value1",
             "custom_param2": "value2"
         ]
 
-        TechTracker.sharedTracker.event(event: startView)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onStopViewCustomParams() {
-        var stopView = StopView()
-        stopView.id = "id"
-        stopView.name = "name"
-        stopView.page = "page"
-        stopView.category = "category"
-        stopView.subcategory = "subcategory"
-        stopView.value = 1.0
-        stopView.customParams = [
+        var event = StopView()
+        event.id = "id"
+        event.name = "name"
+        event.page = "page"
+        event.category = "category"
+        event.subcategory = "subcategory"
+        event.value = 1.0
+        event.customParams = [
             "custom_param1": "value1",
             "custom_param2": "value2"
         ]
 
-        TechTracker.sharedTracker.event(event: stopView)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onViewingCustomParams() {
-        var viewing = Viewing()
-        viewing.id = "id"
-        viewing.name = "name"
-        viewing.page = "page"
-        viewing.category = "category"
-        viewing.subcategory = "subcategory"
-        viewing.value = 1.0
-        viewing.customParams = [
+        var event = Viewing()
+        event.id = "id"
+        event.name = "name"
+        event.page = "page"
+        event.category = "category"
+        event.subcategory = "subcategory"
+        event.value = 1.0
+        event.customParams = [
             "custom_param1": "value1",
             "custom_param2": "value2"
         ]
 
-        TechTracker.sharedTracker.event(event: viewing)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onSearchCustomParams() {
-        var search = Search()
-        search.page = "page"
-        search.value = "value"
-        search.customParams = [
+        var event = Search()
+        event.page = "page"
+        event.value = "value"
+        event.customParams = [
             "custom_param1": "value1",
             "custom_param2": "value2"
         ]
 
-        TechTracker.sharedTracker.event(event: search)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onAdImpCustomParams() {
-        var adImp = AdImp()
-        adImp.placement_id = "placement_id"
-        adImp.page = "page"
-        adImp.href = "href"
-        adImp.height = 100
-        adImp.width = 100
-        adImp.category = "category"
-        adImp.subcategory = "subcategory"
-        adImp.customParams = [
+        var event = AdImp()
+        event.placement_id = "placement_id"
+        event.page = "page"
+        event.href = "href"
+        event.height = 100
+        event.width = 100
+        event.category = "category"
+        event.subcategory = "subcategory"
+        event.customParams = [
             "custom_param1": "value1",
             "custom_param2": "value2"
         ]
 
-        TechTracker.sharedTracker.event(event: adImp)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onAdClickCustomParams() {
-        var adClick = AdClick()
-        adClick.placement_id = "placement_id"
-        adClick.page = "page"
-        adClick.href = "href"
-        adClick.height = 100
-        adClick.width = 100
-        adClick.category = "category"
-        adClick.subcategory = "subcategory"
-        adClick.customParams = [
+        var event = AdClick()
+        event.placement_id = "placement_id"
+        event.page = "page"
+        event.href = "href"
+        event.height = 100
+        event.width = 100
+        event.category = "category"
+        event.subcategory = "subcategory"
+        event.customParams = [
             "custom_param1": "value1",
             "custom_param2": "value2"
         ]
 
-        TechTracker.sharedTracker.event(event: adClick)
+        TechTracker.sharedTracker.event(event: event)
     }
 
 
     @IBAction func onScrollCustomParams() {
-        var scroll = Scroll()
-        scroll.value = 1.0
-        scroll.page = "page"
-        scroll.category = "category"
-        scroll.subcategory = "subcategory"
-        scroll.customParams = [
+        var event = Scroll()
+        event.value = 1.0
+        event.page = "page"
+        event.category = "category"
+        event.subcategory = "subcategory"
+        event.customParams = [
             "custom_param1": "value1",
             "custom_param2": "value2"
         ]
 
-        TechTracker.sharedTracker.event(event: scroll)
+        TechTracker.sharedTracker.event(event: event)
     }
 
     @IBAction func onClickCustomParams() {
-        var click = Click()
-        click.value = "value"
-        click.page = "page"
-        click.customParams = [
+        var event = Click()
+        event.value = "value"
+        event.page = "page"
+        event.customParams = [
             "custom_param1": "value1",
             "custom_param2": "value2"
         ]
 
-        TechTracker.sharedTracker.event(event: click)
+        TechTracker.sharedTracker.event(event: event)
     }
 }
