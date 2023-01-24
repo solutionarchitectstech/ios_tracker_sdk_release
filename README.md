@@ -38,7 +38,7 @@ pod 'SATrackingSDK'
 or
 
 ```
-pod 'SATrackingSDK', :git => 'https://github.com/solutionarchitectstech/ios_tracker_sdk_release.git', :tag => '1.1.7'
+pod 'SATrackingSDK', :git => 'https://github.com/solutionarchitectstech/ios_tracker_sdk_release.git', :tag => '1.1.8'
 ```
 
 ## Initialization

@@ -286,7 +286,6 @@ class ViewController: UIViewController {
         TechTracker.sharedTracker.event(event: event)
     }
 
-
     @IBAction func onScrollCustomParams() {
         var event = Scroll()
         event.value = 1.0

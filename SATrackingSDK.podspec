@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SATrackingSDK"
-  s.version          = "1.1.7"
+  s.version          = "1.1.8"
   s.summary          = "#{s.name} (iOS) #{s.version}"
 
   s.homepage         = "https://github.com/solutionarchitectstech/ios_tracker_sdk_release"
@@ -21,8 +21,5 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
-
-  s.dependency 'Moya/RxSwift'
-  s.dependency 'RxCocoa'
 end
 

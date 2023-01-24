@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SATrackingSDK-Swift.h</key>
 		<data>
-		IAqsRSKP6a1neJT/fR0uOTAMcx0=
+		kGkpV5n+GBHpSuBzGYtvaJs+MV8=
 		</data>
 		<key>Headers/SATrackingSDK.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		FP2b1DivUIOjsjFTm8g5cjfTxkg=
+		iBVgNIiuJXvp4NJL6EZi6dBzESg=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Yu+7eKXcyaRdB5czkst8UoR4+s0=
+		xXpXWrnD/jtTvRoywiz/zCl5lyY=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		1d9KcJetRm6qrLh/W4ud8MiOZD8=
+		x8vEmPILtuwcMI2ej6fYj4HXrLY=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		biNqsc8J+E9rJL271YYj6JmmHpY=
+		5XhI/7pSh/G4fm2+jRQMCTH+AVo=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1d9KcJetRm6qrLh/W4ud8MiOZD8=
+		x8vEmPILtuwcMI2ej6fYj4HXrLY=
 		</data>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MC+bY6gJowKc02RXVHMrOS8mnIk=
+		6hJnmrvBKqZmWDeVrHv48Iv8UZg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BeN16MdLV42wVtaY3ufGOcXTItS1VAbsWz8g6D3GYhA=
+			XfH4sxjFoQHqSh9S8mT/mXDbSlT7d318WThrn+bCbow=
 			</data>
 		</dict>
 		<key>Headers/SATrackingSDK.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8glYROOgb6pdboUi01P7/sHO1X2MmI96oLL9aBXMHAs=
+			9fg9bdwLMXGTeSug1bj2h2wRM08digZhdi7p29PJNd8=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hm9JUmDfTnYgLWm9pkl31T/GebXoBJPbho73HbnyT6M=
+			+KQmEdiuC78UdzcLBRyY+V68uvd6i4sqnihEAMaxCDo=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8nXlfdJZ0w5iu14/Q0r2u3UvJ5D1jp5UcGFOsfek1BU=
+			YUCElUREoUCVpHDTTIn/QtZies+2q63JcoV7MYmf54Q=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hm9JUmDfTnYgLWm9pkl31T/GebXoBJPbho73HbnyT6M=
+			+KQmEdiuC78UdzcLBRyY+V68uvd6i4sqnihEAMaxCDo=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4xCq1isegsD0KcObed7sG/FjERSan2PxbwKE9+xBQ6k=
+			ngaNbA8IEojI3IzY/+lygO7H4dFXULdN9qqHiFcNj8w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
