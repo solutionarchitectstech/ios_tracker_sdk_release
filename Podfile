@@ -4,11 +4,11 @@ platform :ios, '12.0'
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-workspace 'SATrackingSDKExample'
+workspace 'SATrackingSDKStandardExample'
 
-target 'SATrackingSDKExample' do
-  project 'SATrackingSDKExample/SATrackingSDKExample.xcodeproj'
-  pod 'SATrackingSDK', :path => './'
+target 'SATrackingSDKStandardExample' do
+  project 'SATrackingSDKStandardExample/SATrackingSDKStandardExample.xcodeproj'
+  pod 'SATrackingSDKStandard', :path => './'
 end
 
 # fix that error https://github.com/CocoaPods/CocoaPods/issues/10185#issuecomment-722332929

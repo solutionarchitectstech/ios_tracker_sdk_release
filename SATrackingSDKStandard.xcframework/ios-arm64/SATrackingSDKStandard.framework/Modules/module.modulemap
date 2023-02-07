@@ -1,0 +1,11 @@
+framework module SATrackingSDKStandard {
+    umbrella header "SATrackingSDKStandard.h"
+
+    export *
+    module * { export * }
+}
+
+module SATrackingSDKStandard.Swift {
+  header "SATrackingSDKStandard-Swift.h"
+  requires objc
+}
