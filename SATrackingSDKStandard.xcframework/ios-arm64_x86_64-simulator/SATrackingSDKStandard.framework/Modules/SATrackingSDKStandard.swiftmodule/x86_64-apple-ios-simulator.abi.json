@@ -10853,196 +10853,196 @@
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3038,
+      "offset": 2972,
       "length": 5,
       "value": "\"bid\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3069,
+      "offset": 3003,
       "length": 5,
       "value": "\"pid\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3094,
+      "offset": 3028,
       "length": 5,
       "value": "\"uid\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3123,
+      "offset": 3057,
       "length": 3,
       "value": "\"v\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3152,
+      "offset": 3086,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3176,
+      "offset": 3110,
       "length": 4,
       "value": "\"pu\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3206,
+      "offset": 3140,
       "length": 4,
       "value": "\"et\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3241,
+      "offset": 3175,
       "length": 13,
       "value": "\"add_to_cart\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3218,
       "length": 10,
       "value": "\"purchase\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3320,
+      "offset": 3254,
       "length": 12,
       "value": "\"start_view\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3357,
+      "offset": 3291,
       "length": 11,
       "value": "\"stop_view\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3326,
       "length": 9,
       "value": "\"viewing\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3443,
+      "offset": 3377,
       "length": 8,
       "value": "\"ad_imp\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3475,
+      "offset": 3409,
       "length": 10,
       "value": "\"ad_click\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3038,
+      "offset": 2972,
       "length": 5,
       "value": "\"bid\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3069,
+      "offset": 3003,
       "length": 5,
       "value": "\"pid\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3094,
+      "offset": 3028,
       "length": 5,
       "value": "\"uid\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3123,
+      "offset": 3057,
       "length": 3,
       "value": "\"v\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3152,
+      "offset": 3086,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3176,
+      "offset": 3110,
       "length": 4,
       "value": "\"pu\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3206,
+      "offset": 3140,
       "length": 4,
       "value": "\"et\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3241,
+      "offset": 3175,
       "length": 13,
       "value": "\"add_to_cart\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3284,
+      "offset": 3218,
       "length": 10,
       "value": "\"purchase\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3320,
+      "offset": 3254,
       "length": 12,
       "value": "\"start_view\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3357,
+      "offset": 3291,
       "length": 11,
       "value": "\"stop_view\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3392,
+      "offset": 3326,
       "length": 9,
       "value": "\"viewing\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3443,
+      "offset": 3377,
       "length": 8,
       "value": "\"ad_imp\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3475,
+      "offset": 3409,
       "length": 10,
       "value": "\"ad_click\""
     },
