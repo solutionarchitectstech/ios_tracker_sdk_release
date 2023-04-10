@@ -2652,6 +2652,91 @@
           },
           {
             "kind": "Var",
+            "name": "deltaQuantity",
+            "printedName": "deltaQuantity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvp",
+            "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvp",
+            "moduleName": "SATrackingSDKStandard",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvg",
+                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvg",
+                "moduleName": "SATrackingSDKStandard",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvs",
+                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvs",
+                "moduleName": "SATrackingSDKStandard",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvM",
+                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvM",
+                "moduleName": "SATrackingSDKStandard",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "quantity",
             "printedName": "quantity",
             "children": [
@@ -2890,7 +2975,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:name:price:currency:category:subcategory:quantity:customParams:)",
+            "printedName": "init(id:name:price:currency:category:subcategory:deltaQuantity:quantity:customParams:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2960,6 +3045,12 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Optional",
                 "printedName": "[Swift.String : Swift.String]?",
                 "children": [
@@ -2989,8 +3080,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21SATrackingSDKStandard13AddToCartItemV2id4name5price8currency8category11subcategory8quantity12customParamsACSS_SSSdS2SSgALSfSDyS2SGSgtcfc",
-            "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV2id4name5price8currency8category11subcategory8quantity12customParamsACSS_SSSdS2SSgALSfSDyS2SGSgtcfc",
+            "usr": "s:21SATrackingSDKStandard13AddToCartItemV2id4name5price8currency8category11subcategory13deltaQuantity8quantity12customParamsACSS_SSSdS2SSgAMS2fSDyS2SGSgtcfc",
+            "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV2id4name5price8currency8category11subcategory13deltaQuantity8quantity12customParamsACSS_SSSdS2SSgAMS2fSDyS2SGSgtcfc",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "AccessControl"
@@ -10837,6 +10928,265 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3073,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "Array",
+      "offset": 3226,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 3848,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 3888,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 3923,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 3947,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 3970,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4012,
+      "length": 33,
+      "value": "\"application\/json; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4067,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4462,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4627,
+      "length": 220,
+      "value": "\">>> API call REQUEST: \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4692,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4695,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4732,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4735,
+      "length": 7,
+      "value": "\"\n    HEADERS: \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "Dictionary",
+      "offset": 4797,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4801,
+      "length": 4,
+      "value": "\"\n    BODY: \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 4831,
+      "length": 1322,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5105,
+      "length": 48,
+      "value": "\"API call failed: \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5152,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5328,
+      "length": 41,
+      "value": "\"API call failed: Invalid HTTP response.\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5398,
+      "length": 24,
+      "value": "\"Invalid HTTP response.\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5597,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5672,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5760,
+      "length": 6,
+      "value": "\"json\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5816,
+      "length": 5,
+      "value": "\"xml\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5871,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5927,
+      "length": 6,
+      "value": "\"html\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 5980,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 6163,
+      "length": 238,
+      "value": "\"<<< API call RESPONSE: \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 6219,
+      "length": 1,
+      "value": "\" - \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 6283,
+      "length": 7,
+      "value": "\"\n    HEADERS: \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 6347,
+      "length": 4,
+      "value": "\"\n    BODY: \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 6381,
+      "length": 2108,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6485,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6505,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6659,
+      "length": 3,
+      "value": "404"
+    },
+    {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/domain\/model\/AddToCart.swift",
       "kind": "Array",
       "offset": 1303,
@@ -11047,6 +11397,20 @@
       "value": "\"ad_click\""
     },
     {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/Date+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1289,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/String+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1449,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 1517,
@@ -11063,7 +11427,91 @@
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
+      "offset": 1971,
+      "length": 62,
+      "value": "\"TrackingSDK not initialized yet. Please initialize it first.\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 2275,
+      "length": 62,
+      "value": "\"TrackingSDK not initialized yet. Please initialize it first.\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
       "offset": 2729,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 4516,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 4560,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 4651,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 4684,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 4801,
+      "length": 14,
+      "value": "\"CFBundleName\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 4831,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 4915,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 4959,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 5050,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 5083,
       "length": 2,
       "value": "\"\""
     },
@@ -11077,70 +11525,168 @@
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2550,
+      "offset": 1605,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3703,
+      "offset": 2603,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4705,
+      "offset": 2814,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5739,
+      "offset": 3756,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6769,
+      "offset": 3968,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7641,
+      "offset": 4758,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8719,
+      "offset": 4969,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 9805,
+      "offset": 5792,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 10767,
+      "offset": 6002,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 11651,
+      "offset": 6822,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 7031,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 7694,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 7902,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 8772,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 8982,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 9858,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 10067,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 10820,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 11028,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 11704,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 12005,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 12099,
+      "length": 29,
+      "value": "\"Unable to make API request.\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 12334,
+      "length": 77,
+      "value": "\"Unable to convert DTO to JSON body due error: \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 12410,
       "length": 2,
       "value": "\"\""
     },
@@ -11164,6 +11710,76 @@
       "offset": 1668,
       "length": 24,
       "value": "\"yyyy-MM-dd hh:mm:ssSSS\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 2067,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 2108,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4110,
+      "length": 122,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4131,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4149,
+      "length": 1,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4187,
+      "length": 1,
+      "value": "\"]:\""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4196,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4206,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4218,
+      "length": 2,
+      "value": "\" -> \""
+    },
+    {
+      "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
+      "kind": "StringLiteral",
+      "offset": 4231,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/stanislav.radchenko\/Desktop\/Projects\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/domain\/model\/Purchase.swift",

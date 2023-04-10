@@ -32,7 +32,8 @@ class ViewController: UIViewController {
                     currency: "USD",
                     category: "category",
                     subcategory: "subcategory",
-                    quantity: 0.5
+                    deltaQuantity: 1.0,
+                    quantity: 2.5
                 )
             ]
         )
@@ -155,7 +156,8 @@ class ViewController: UIViewController {
                     currency: "USD",
                     category: "category1",
                     subcategory: "subcategory1",
-                    quantity: 0.5,
+                    deltaQuantity: 1.0,
+                    quantity: 2.5,
                     customParams: [
                         "custom_param_1_1": "value_1_1",
                         "custom_param_1_2": "value_1_2"
@@ -168,6 +170,7 @@ class ViewController: UIViewController {
                     currency: "USD",
                     category: "category2",
                     subcategory: "subcategory2",
+                    deltaQuantity: 1.0,
                     quantity: 1.0,
                     customParams: [
                         "custom_param_2_1": "value_2_1",
