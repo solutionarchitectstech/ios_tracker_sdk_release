@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SATrackingSDKStandard
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -35,9 +35,10 @@ public struct AddToCartItem : SATrackingSDKStandard.CustomParamsAware {
   public var currency: Swift.String
   public var category: Swift.String?
   public var subcategory: Swift.String?
+  public var deltaQuantity: Swift.Float
   public var quantity: Swift.Float
   public var customParams: [Swift.String : Swift.String]?
-  public init(id: Swift.String, name: Swift.String, price: Swift.Double, currency: Swift.String, category: Swift.String? = nil, subcategory: Swift.String? = nil, quantity: Swift.Float, customParams: [Swift.String : Swift.String]? = nil)
+  public init(id: Swift.String, name: Swift.String, price: Swift.Double, currency: Swift.String, category: Swift.String? = nil, subcategory: Swift.String? = nil, deltaQuantity: Swift.Float, quantity: Swift.Float, customParams: [Swift.String : Swift.String]? = nil)
 }
 public protocol CustomParamsAware {
   var customParams: [Swift.String : Swift.String]? { get set }
@@ -94,7 +95,7 @@ public struct TrackerOptions {
 @_hasMissingDesignatedInitializers public class TechTracker {
   public static let shared: SATrackingSDKStandard.TechTracker
   public static func initialize(options: SATrackingSDKStandard.TrackerOptions)
-  public func event(path: Swift.String = "", event: SATrackingSDKStandard.TrackerEvent, block: @escaping (Swift.Error?) -> Swift.Void = { _ in })
+  public func event(path: Swift.String = "", event: any SATrackingSDKStandard.TrackerEvent, block: @escaping ((any Swift.Error)?) -> Swift.Void = { _ in })
   @objc deinit
 }
 public struct Purchase : SATrackingSDKStandard.TrackerEvent {
