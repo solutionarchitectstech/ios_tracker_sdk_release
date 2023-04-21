@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Let's initialize SATrackingSDKStandard
         TechTracker.initialize(options: TrackerOptions(
             partnerId: "YOUR_PARTNER_ID",
-            uid: "YOUR_UID",
+            sessionId: "YOUR_SESSION_ID",
             endpointUrl: "https://YOUR_ENDPOINT",
             debugMode: true,
             httpHeaders: [
