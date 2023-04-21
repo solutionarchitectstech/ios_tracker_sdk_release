@@ -1,5 +1,5 @@
 PODS:
-  - SATrackingSDKStandard (1.2.2)
+  - SATrackingSDKStandard (1.2.3)
 
 DEPENDENCIES:
   - SATrackingSDKStandard (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  SATrackingSDKStandard: 7a2b725b4cb295b85d79013ae41d0a04ae308f90
+  SATrackingSDKStandard: aca0820a10b0ef53b2b6127b1a0a939a1daf33a2
 
 PODFILE CHECKSUM: 22ea8e71519e37045dc9f6c9233146fad3bfb85c
 

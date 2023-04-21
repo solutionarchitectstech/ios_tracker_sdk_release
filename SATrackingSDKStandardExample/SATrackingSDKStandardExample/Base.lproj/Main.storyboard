@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="6C2-v7-XjT">
-                                <rect key="frame" x="16" y="42" width="105.5" height="453"/>
+                                <rect key="frame" x="16" y="42" width="105.5" height="406.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUR-rZ-A0W" userLabel="AddToCart">
                                         <rect key="frame" x="0.0" y="0.0" width="105.5" height="34.5"/>
@@ -70,20 +70,8 @@
                                             <action selector="onStopView" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7zS-kB-yJp"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTE-wN-Qv3">
-                                        <rect key="frame" x="0.0" y="186" width="105.5" height="34.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain">
-                                            <attributedString key="attributedTitle">
-                                                <fragment content="Viewing"/>
-                                            </attributedString>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="onViewing" destination="vXZ-lx-hvc" eventType="touchUpInside" id="GiJ-qb-kY3"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhD-Vd-RyA">
-                                        <rect key="frame" x="0.0" y="232.5" width="105.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="186" width="105.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
                                             <attributedString key="attributedTitle">
@@ -95,7 +83,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjs-wM-DCi">
-                                        <rect key="frame" x="0.0" y="279" width="105.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="232.5" width="105.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
                                             <attributedString key="attributedTitle">
@@ -107,7 +95,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSW-Bs-gQg">
-                                        <rect key="frame" x="0.0" y="325.5" width="105.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="279" width="105.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
                                             <attributedString key="attributedTitle">
@@ -119,7 +107,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVz-2d-IDc">
-                                        <rect key="frame" x="0.0" y="372" width="105.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="325.5" width="105.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
                                             <attributedString key="attributedTitle">
@@ -131,7 +119,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Og1-u9-uHI">
-                                        <rect key="frame" x="0.0" y="418.5" width="105.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="372" width="105.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain">
                                             <attributedString key="attributedTitle">
@@ -145,7 +133,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="o2g-V3-ELY">
-                                <rect key="frame" x="131" y="42" width="227.5" height="453"/>
+                                <rect key="frame" x="131" y="42" width="227.5" height="406.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ai3-vI-bAJ">
                                         <rect key="frame" x="0.0" y="0.0" width="227.5" height="34.5"/>
@@ -179,16 +167,8 @@
                                             <action selector="onStopViewCustomParams" destination="vXZ-lx-hvc" eventType="touchUpInside" id="j30-fR-ZNP"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iis-cG-Lfx">
-                                        <rect key="frame" x="0.0" y="186" width="227.5" height="34.5"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Viewing custom params"/>
-                                        <connections>
-                                            <action selector="onViewingCustomParams" destination="vXZ-lx-hvc" eventType="touchUpInside" id="HJY-6d-83H"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCO-1Q-NuH">
-                                        <rect key="frame" x="0.0" y="232.5" width="227.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="186" width="227.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Search custom params"/>
                                         <connections>
@@ -196,7 +176,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZc-2z-VA8">
-                                        <rect key="frame" x="0.0" y="279" width="227.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="232.5" width="227.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="AdImp custom params"/>
                                         <connections>
@@ -204,7 +184,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyW-Iy-qms">
-                                        <rect key="frame" x="0.0" y="325.5" width="227.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="279" width="227.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="AdClick custom params"/>
                                         <connections>
@@ -212,7 +192,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdK-LM-DgA">
-                                        <rect key="frame" x="0.0" y="372" width="227.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="325.5" width="227.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Click custom params"/>
                                         <connections>
@@ -220,7 +200,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0G-wQ-cEW">
-                                        <rect key="frame" x="0.0" y="418.5" width="227.5" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="372" width="227.5" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Scroll custom params"/>
                                         <connections>

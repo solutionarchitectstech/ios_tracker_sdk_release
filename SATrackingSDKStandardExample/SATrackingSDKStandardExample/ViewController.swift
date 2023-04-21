@@ -23,17 +23,36 @@ class ViewController: UIViewController {
 
     @IBAction func onAddToCart() {
         let event = AddToCart(
-            page: "page",
             items: [
                 AddToCartItem(
-                    id: "id",
-                    name: "name",
-                    price: 1.0,
-                    currency: "USD",
-                    category: "category",
-                    subcategory: "subcategory",
+                    sku: SKU(
+                        skuId: "1",
+                        skuName: "Lego",
+                        price: 35.0,
+                        currency: "RUB"
+                    ),
                     deltaQuantity: 1.0,
-                    quantity: 2.5
+                    quantity: 2.0,
+                    category: [
+                        Category(
+                            categoryId: "1",
+                            categoryName: "Category Name",
+                            children: [
+                                Category(
+                                    categoryId: "11",
+                                    categoryName: "SubCategory Name"
+                                )
+                            ]
+                        )
+                    ]
+                ),
+                AddToCartItem(
+                    sku: SKU(
+                        skuId: "2",
+                        skuName: "Ozone"
+                    ),
+                    deltaQuantity: 1.0,
+                    quantity: 2.0
                 )
             ]
         )
@@ -42,16 +61,34 @@ class ViewController: UIViewController {
 
     @IBAction func onPurchase() {
         let event = Purchase(
-            page: "page",
             items: [
                 PurchaseItem(
-                    id: "id",
-                    name: "name",
-                    price: 1.0,
-                    currency: "USD",
-                    category: "category",
-                    subcategory: "subcategory",
-                    quantity: 3.0
+                    sku: SKU(
+                        skuId: "1",
+                        skuName: "Lego",
+                        price: 35.0,
+                        currency: "RUB"
+                    ),
+                    quantity: 2.0,
+                    category: [
+                        Category(
+                            categoryId: "1",
+                            categoryName: "Category Name",
+                            children: [
+                                Category(
+                                    categoryId: "11",
+                                    categoryName: "SubCategory Name"
+                                )
+                            ]
+                        )
+                    ]
+                ),
+                PurchaseItem(
+                    sku: SKU(
+                        skuId: "2",
+                        skuName: "Ozone"
+                    ),
+                    quantity: 2.0
                 )
             ]
         )
@@ -60,122 +97,220 @@ class ViewController: UIViewController {
 
     @IBAction func onStartView() {
         let event = StartView(
-            id: "id",
-            name: "name",
-            category: "category",
-            subcategory: "subcategory",
-            page: "page"
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ]
         )
         TechTracker.shared.event(event: event)
     }
 
     @IBAction func onStopView() {
         let event = StopView(
-            id: "id",
-            name: "name",
-            category: "category",
-            subcategory: "subcategory",
-            value: 1.0,
-            page: "page"
-        )
-        TechTracker.shared.event(event: event)
-    }
-
-    @IBAction func onViewing() {
-        let event = Viewing(
-            id: "id",
-            name: "name",
-            category: "category",
-            subcategory: "subcategory",
-            value: 1.0,
-            page: "page"
+            contentId: "1",
+            contentName: "Lego",
+            value: 0.5,
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ]
         )
         TechTracker.shared.event(event: event)
     }
 
     @IBAction func onSearch() {
         let event = Search(
-            value: "value",
-            page: "page"
+            value: "Pampers",
+            filter: [
+                "age": ["0-1", "1-3"],
+                "sex": ["m"]
+            ]
         )
         TechTracker.shared.event(event: event)
     }
 
     @IBAction func onAdImp() {
         let event = AdImp(
-            placementId: "placementId",
-            width: 100,
-            height: 100,
-            href: "href",
-            category: "category",
-            subcategory: "subcategory",
-            page: "page"
+            placementId: "1",
+            width: 240,
+            height: 300,
+            clickURL: "https://test.com",
+            adType: .banner,
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ]
         )
         TechTracker.shared.event(event: event)
     }
 
     @IBAction func onAdClick() {
         let event = AdClick(
-            placementId: "placementId",
-            width: 100,
-            height: 100,
-            href: "href",
-            category: "category",
-            subcategory: "subcategory",
-            page: "page"
+            placementId: "1",
+            width: 240,
+            height: 300,
+            clickURL: "https://test.com",
+            adType: .banner,
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ]
         )
         TechTracker.shared.event(event: event)
     }
 
     @IBAction func onScroll() {
         let event = Scroll(
-            category: "category",
-            subcategory: "subcategory",
-            value: 1.0,
-            page: "page"
+            value: 0.6,
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ]
         )
         TechTracker.shared.event(event: event)
     }
 
     @IBAction func onClick() {
         let event = Click(
-            value: "value",
-            page: "page"
+            value: "start registration",
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ]
         )
         TechTracker.shared.event(event: event)
     }
 
     @IBAction func onAddToCartCustomParams() {
         let event = AddToCart(
-            page: "page",
             items: [
                 AddToCartItem(
-                    id: "id1",
-                    name: "name1",
-                    price: 1.0,
-                    currency: "USD",
-                    category: "category1",
-                    subcategory: "subcategory1",
+                    sku: SKU(
+                        skuId: "1",
+                        skuName: "Lego",
+                        price: 35.0,
+                        currency: "RUB"
+                    ),
                     deltaQuantity: 1.0,
-                    quantity: 2.5,
+                    quantity: 2.0,
+                    category: [
+                        Category(
+                            categoryId: "1",
+                            categoryName: "Category Name",
+                            children: [
+                                Category(
+                                    categoryId: "11",
+                                    categoryName: "SubCategory Name"
+                                )
+                            ]
+                        )
+                    ],
                     customParams: [
-                        "custom_param_1_1": "value_1_1",
-                        "custom_param_1_2": "value_1_2"
+                        "custom_param1": "value1",
+                        "custom_param2": "value2"
                     ]
                 ),
                 AddToCartItem(
-                    id: "id2",
-                    name: "name2",
-                    price: 2.0,
-                    currency: "USD",
-                    category: "category2",
-                    subcategory: "subcategory2",
+                    sku: SKU(
+                        skuId: "2",
+                        skuName: "Ozone"
+                    ),
                     deltaQuantity: 1.0,
-                    quantity: 1.0,
-                    customParams: [
-                        "custom_param_2_1": "value_2_1",
-                        "custom_param_2_2": "value_2_2"
-                    ]
+                    quantity: 2.0
                 )
             ]
         )
@@ -184,33 +319,39 @@ class ViewController: UIViewController {
 
     @IBAction func onPurchaseCustomParams() {
         let event = Purchase(
-            page: "page",
             items: [
                 PurchaseItem(
-                    id: "id1",
-                    name: "name1",
-                    price: 1.0,
-                    currency: "USD",
-                    category: "category",
-                    subcategory: "subcategory",
-                    quantity: 3.0,
+                    sku: SKU(
+                        skuId: "1",
+                        skuName: "Lego",
+                        price: 35.0,
+                        currency: "RUB"
+                    ),
+                    quantity: 2.0,
+                    category: [
+                        Category(
+                            categoryId: "1",
+                            categoryName: "Category Name",
+                            children: [
+                                Category(
+                                    categoryId: "11",
+                                    categoryName: "SubCategory Name"
+                                )
+                            ]
+                        )
+                    ],
                     customParams: [
-                        "custom_param_1_1": "value_1_1",
-                        "custom_param_1_2": "value_1_2"
+                        "custom_param1": "value1",
+                        "custom_param2": "value2"
                     ]
                 ),
                 PurchaseItem(
-                    id: "id2",
-                    name: "name2",
-                    price: 2.0,
-                    currency: "USD",
-                    category: "category",
-                    subcategory: "subcategory",
-                    quantity: 1.0,
-                    customParams: [
-                        "custom_param_2_1": "value_2_1",
-                        "custom_param_2_2": "value_2_2"
-                    ])
+                    sku: SKU(
+                        skuId: "2",
+                        skuName: "Ozone"
+                    ),
+                    quantity: 2.0
+                )
             ]
         )
         TechTracker.shared.event(event: event)
@@ -218,11 +359,26 @@ class ViewController: UIViewController {
 
     @IBAction func onStartViewCustomParams() {
         let event = StartView(
-            id: "id",
-            name: "name",
-            category: "category",
-            subcategory: "subcategory",
-            page: "page",
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ],
             customParams: [
                 "custom_param1": "value1",
                 "custom_param2": "value2"
@@ -233,28 +389,27 @@ class ViewController: UIViewController {
 
     @IBAction func onStopViewCustomParams() {
         let event = StopView(
-            id: "id",
-            name: "name",
-            category: "category",
-            subcategory: "subcategory",
-            value: 1.0,
-            page: "page",
-            customParams: [
-                "custom_param1": "value1",
-                "custom_param2": "value2"
-            ]
-        )
-        TechTracker.shared.event(event: event)
-    }
-
-    @IBAction func onViewingCustomParams() {
-        let event = Viewing(
-            id: "id",
-            name: "name",
-            category: "category",
-            subcategory: "subcategory",
-            value: 1.0,
-            page: "page",
+            contentId: "1",
+            contentName: "Lego",
+            value: 0.5,
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ],
             customParams: [
                 "custom_param1": "value1",
                 "custom_param2": "value2"
@@ -265,8 +420,11 @@ class ViewController: UIViewController {
 
     @IBAction func onSearchCustomParams() {
         let event = Search(
-            value: "value",
-            page: "page",
+            value: "Pampers",
+            filter: [
+                "age": ["0-1", "1-3"],
+                "sex": ["m"]
+            ],
             customParams: [
                 "custom_param1": "value1",
                 "custom_param2": "value2"
@@ -277,13 +435,31 @@ class ViewController: UIViewController {
 
     @IBAction func onAdImpCustomParams() {
         let event = AdImp(
-            placementId: "placementId",
-            width: 100,
-            height: 100,
-            href: "href",
-            category: "category",
-            subcategory: "subcategory",
-            page: "page",
+            placementId: "1",
+            width: 240,
+            height: 300,
+            clickURL: "https://test.com",
+            adType: .banner,
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ],
             customParams: [
                 "custom_param1": "value1",
                 "custom_param2": "value2"
@@ -294,13 +470,31 @@ class ViewController: UIViewController {
 
     @IBAction func onAdClickCustomParams() {
         let event = AdClick(
-            placementId: "placementId",
-            width: 100,
-            height: 100,
-            href: "href",
-            category: "category",
-            subcategory: "subcategory",
-            page: "page",
+            placementId: "1",
+            width: 240,
+            height: 300,
+            clickURL: "https://test.com",
+            adType: .banner,
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ],
             customParams: [
                 "custom_param1": "value1",
                 "custom_param2": "value2"
@@ -310,28 +504,64 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onScrollCustomParams() {
-        var event = Scroll()
-        event.value = 1.0
-        event.page = "page"
-        event.category = "category"
-        event.subcategory = "subcategory"
-        event.customParams = [
-            "custom_param1": "value1",
-            "custom_param2": "value2"
-        ]
-
+        let event = Scroll(
+            value: 0.6,
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ],
+            customParams: [
+                "custom_param1": "value1",
+                "custom_param2": "value2"
+            ]
+        )
         TechTracker.shared.event(event: event)
     }
 
     @IBAction func onClickCustomParams() {
-        var event = Click()
-        event.value = "value"
-        event.page = "page"
-        event.customParams = [
-            "custom_param1": "value1",
-            "custom_param2": "value2"
-        ]
-
+        let event = Click(
+            value: "start registration",
+            contentId: "1",
+            contentName: "Lego",
+            sku: SKU(
+                skuId: "1",
+                skuName: "Lego",
+                price: 35.0,
+                currency: "RUB"
+            ),
+            category: [
+                Category(
+                    categoryId: "1",
+                    categoryName: "Category Name",
+                    children: [
+                        Category(
+                            categoryId: "11",
+                            categoryName: "SubCategory Name"
+                        )
+                    ]
+                )
+            ],
+            customParams: [
+                "custom_param1": "value1",
+                "custom_param2": "value2"
+            ]
+        )
         TechTracker.shared.event(event: event)
     }
 }
