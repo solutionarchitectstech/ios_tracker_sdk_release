@@ -2,7 +2,10 @@
 // swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SATrackingSDKStandard
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import CommonCrypto
+import CryptoKit
 import Foundation
+import Network
 @_exported import SATrackingSDKStandard
 import Swift
 import _Concurrency
@@ -81,7 +84,9 @@ public struct AddToCart : SATrackingSDKStandard.TrackerEvent {
   public init(items: [SATrackingSDKStandard.AddToCartItem] = [])
 }
 public enum ApiError : Swift.Error, Swift.CustomStringConvertible, Foundation.LocalizedError {
+  case networkFailed(error: any Swift.Error)
   case invocationFailed(reason: (message: Swift.String, statusCode: Swift.Int))
+  case failed(error: any Swift.Error)
   public var description: Swift.String {
     get
   }
@@ -120,6 +125,10 @@ public struct TrackerOptions {
 public struct Purchase : SATrackingSDKStandard.TrackerEvent {
   public var items: [SATrackingSDKStandard.PurchaseItem]
   public init(items: [SATrackingSDKStandard.PurchaseItem] = [])
+}
+extension Network.NWInterface.InterfaceType : Swift.CaseIterable {
+  public static var allCases: [Network.NWInterface.InterfaceType]
+  public typealias AllCases = [Network.NWInterface.InterfaceType]
 }
 public struct Scroll : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var value: Swift.Float
