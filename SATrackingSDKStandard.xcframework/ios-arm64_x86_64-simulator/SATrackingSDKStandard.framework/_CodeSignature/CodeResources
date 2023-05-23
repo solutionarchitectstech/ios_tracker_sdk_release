@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1SwtBYUptVY1rGx8E+EZk3NdJHI=
+		POsg0Lz36vmxe0yoIa3sxZNE3xQ=
 		</data>
 		<key>Modules/SATrackingSDKStandard.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5BApcp/0KsoGx7PTdZdW447gREc=
+		Pbn0DbStWmPmhskUMSfhkjyF6Ok=
 		</data>
 		<key>Modules/SATrackingSDKStandard.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/SATrackingSDKStandard.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7R4iCYU+IQ3Y6QpdP1Pq33Dku/w=
+		4h3pj84j3F1kiiTM6Lrg5kq5cNQ=
 		</data>
 		<key>Modules/SATrackingSDKStandard.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5BApcp/0KsoGx7PTdZdW447gREc=
+		Pbn0DbStWmPmhskUMSfhkjyF6Ok=
 		</data>
 		<key>Modules/SATrackingSDKStandard.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SATrackingSDKStandard.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xkIFmwPcjfA53X7O2xLFJMrbaj8=
+		J3OEI+Szm/3sPB2z5dPvTFWEYo0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dedcX+i/BCDa1qmXtE5O9cke029OzFLFOf9CmMjB7xE=
+			rCwvsIfBZ/0HwHMot2Kn+VXFLYdsxSbT/hMw4r9jDsI=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDKStandard.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -109,14 +109,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kxvbrt2cD7mFNPRQMC5sGoVFVmyolRdYmni3wdsocAo=
+			NG39dY+zwxYpu0OpNIwRWJEv4goTX74Tb28Zu38bS8k=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDKStandard.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dedcX+i/BCDa1qmXtE5O9cke029OzFLFOf9CmMjB7xE=
+			rCwvsIfBZ/0HwHMot2Kn+VXFLYdsxSbT/hMw4r9jDsI=
 			</data>
 		</dict>
 		<key>Modules/SATrackingSDKStandard.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h3+/9bbgMdcuL/Xr4Cr+aZDusNwnN1Mrle9ahisjeik=
+			epKkkVvC5NM+W0YKveinmm9NQWu/ee8S+QG0wM1QwcY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

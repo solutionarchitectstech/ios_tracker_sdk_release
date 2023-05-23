@@ -5219,6 +5219,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SATrackingSDKStandard",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "AddToCart",
         "printedName": "AddToCart",
@@ -10133,16 +10143,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SATrackingSDKStandard",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "Category",
         "printedName": "Category",
@@ -11404,259 +11404,259 @@
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 4464,
+      "offset": 4466,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 4629,
+      "offset": 4631,
       "length": 220,
       "value": "\">>> API call REQUEST: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 4694,
+      "offset": 4696,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 4697,
+      "offset": 4699,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 4734,
+      "offset": 4736,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 4737,
+      "offset": 4739,
       "length": 7,
       "value": "\"\n    HEADERS: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "Dictionary",
-      "offset": 4799,
+      "offset": 4801,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 4803,
+      "offset": 4805,
       "length": 4,
       "value": "\"\n    BODY: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 4833,
-      "length": 1066,
+      "offset": 4835,
+      "length": 1068,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 5744,
+      "offset": 5748,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 5909,
+      "offset": 5913,
       "length": 220,
       "value": "\">>> API call REQUEST: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 5974,
+      "offset": 5978,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 5977,
+      "offset": 5981,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 6014,
+      "offset": 6018,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 6017,
+      "offset": 6021,
       "length": 7,
       "value": "\"\n    HEADERS: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "Dictionary",
-      "offset": 6079,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
-      "kind": "StringLiteral",
       "offset": 6083,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 6087,
       "length": 4,
       "value": "\"\n    BODY: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 6113,
-      "length": 1314,
+      "offset": 6117,
+      "length": 1316,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 6324,
+      "offset": 6328,
       "length": 48,
       "value": "\"API call failed: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 6371,
+      "offset": 6375,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 6578,
+      "offset": 6582,
       "length": 41,
       "value": "\"API call failed: Invalid HTTP response.\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 6671,
+      "offset": 6675,
       "length": 24,
       "value": "\"Invalid HTTP response.\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "BooleanLiteral",
-      "offset": 6871,
+      "offset": 6877,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 6946,
+      "offset": 6952,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7034,
+      "offset": 7040,
       "length": 6,
       "value": "\"json\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7090,
+      "offset": 7096,
       "length": 5,
       "value": "\"xml\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7145,
+      "offset": 7151,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7201,
+      "offset": 7207,
       "length": 6,
       "value": "\"html\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7254,
+      "offset": 7260,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7437,
+      "offset": 7443,
       "length": 238,
       "value": "\"<<< API call RESPONSE: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7493,
+      "offset": 7499,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7557,
+      "offset": 7563,
       "length": 7,
       "value": "\"\n    HEADERS: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7621,
+      "offset": 7627,
       "length": 4,
       "value": "\"\n    BODY: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "StringLiteral",
-      "offset": 7655,
+      "offset": 7661,
       "length": 1723,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 7759,
+      "offset": 7765,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 7779,
+      "offset": 7785,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepository.swift",
       "kind": "IntegerLiteral",
-      "offset": 7933,
+      "offset": 7939,
       "length": 3,
       "value": "404"
     },
@@ -11929,91 +11929,126 @@
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 2027,
+      "offset": 2076,
       "length": 62,
       "value": "\"TrackingSDK not initialized yet. Please initialize it first.\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 2273,
-      "length": 62,
-      "value": "\"TrackingSDK not initialized yet. Please initialize it first.\""
+      "offset": 2251,
+      "length": 11,
+      "value": "\"localhost\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 3137,
+      "offset": 2319,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 4927,
+      "offset": 2368,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 2417,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "Dictionary",
+      "offset": 2470,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 2637,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 3341,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 5131,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 5175,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 5062,
+      "offset": 5266,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 5095,
+      "offset": 5299,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 5212,
+      "offset": 5416,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 5242,
+      "offset": 5446,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 5326,
+      "offset": 5530,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 5370,
+      "offset": 5574,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 5461,
+      "offset": 5665,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
       "kind": "StringLiteral",
-      "offset": 5494,
+      "offset": 5698,
       "length": 2,
       "value": "\"\""
     },
@@ -12041,224 +12076,161 @@
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 1614,
+      "offset": 2405,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 1896,
+      "offset": 2627,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2159,
+      "offset": 3244,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2539,
+      "offset": 3465,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 2820,
+      "offset": 4079,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3083,
+      "offset": 4301,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3460,
+      "offset": 4892,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 3742,
+      "offset": 5113,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4005,
+      "offset": 5701,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4359,
+      "offset": 5920,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4640,
+      "offset": 6502,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4903,
+      "offset": 6720,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5254,
+      "offset": 7299,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5533,
+      "offset": 7519,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5796,
+      "offset": 8104,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6141,
+      "offset": 8323,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6419,
+      "offset": 8905,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6682,
+      "offset": 9123,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7024,
+      "offset": 9718,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7304,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 7567,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 7915,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 8194,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 8457,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 8802,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 9080,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 9343,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 9701,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 10002,
+      "offset": 9970,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 10096,
+      "offset": 10061,
       "length": 29,
       "value": "\"Unable to make API request.\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 10331,
+      "offset": 10296,
       "length": 77,
       "value": "\"Unable to convert DTO to JSON body due error: \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 10407,
+      "offset": 10372,
       "length": 2,
       "value": "\"\""
     },
@@ -12271,85 +12243,78 @@
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1604,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 1668,
+      "offset": 1432,
       "length": 24,
       "value": "\"yyyy-MM-dd hh:mm:ssSSS\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 2067,
+      "offset": 1831,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 2108,
+      "offset": 1872,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 4110,
+      "offset": 4163,
       "length": 122,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 4131,
+      "offset": 4184,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 4149,
+      "offset": 4202,
       "length": 1,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 4187,
+      "offset": 4240,
       "length": 1,
       "value": "\"]:\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 4196,
+      "offset": 4249,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 4206,
+      "offset": 4259,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 4218,
+      "offset": 4271,
       "length": 2,
       "value": "\" -> \""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 4231,
+      "offset": 4284,
       "length": 2,
       "value": "\"\""
     },
@@ -12719,87 +12684,157 @@
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1357,
-      "length": 10,
-      "value": "\"[‼️]\""
+      "kind": "IntegerLiteral",
+      "offset": 1346,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1361,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1346,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1361,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 5,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1346,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1361,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 5,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1390,
-      "length": 10,
-      "value": "\"[ℹ️]\""
+      "offset": 1438,
+      "length": 13,
+      "value": "\"[🔥FATAL]\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1422,
-      "length": 8,
-      "value": "\"[💬]\""
+      "offset": 1474,
+      "length": 15,
+      "value": "\"[‼️ERROR]\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1453,
-      "length": 8,
-      "value": "\"[🔬]\""
+      "offset": 1512,
+      "length": 14,
+      "value": "\"[⚠️WARN]\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1486,
-      "length": 10,
-      "value": "\"[⚠️]\""
+      "offset": 1551,
+      "length": 14,
+      "value": "\"[ℹ️INFO]\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1521,
-      "length": 8,
-      "value": "\"[🔥]\""
+      "offset": 1587,
+      "length": 13,
+      "value": "\"[💬DEBUG]\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1357,
-      "length": 10,
-      "value": "\"[‼️]\""
+      "offset": 1438,
+      "length": 13,
+      "value": "\"[🔥FATAL]\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1390,
-      "length": 10,
-      "value": "\"[ℹ️]\""
+      "offset": 1474,
+      "length": 15,
+      "value": "\"[‼️ERROR]\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1422,
-      "length": 8,
-      "value": "\"[💬]\""
+      "offset": 1512,
+      "length": 14,
+      "value": "\"[⚠️WARN]\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1453,
-      "length": 8,
-      "value": "\"[🔬]\""
+      "offset": 1551,
+      "length": 14,
+      "value": "\"[ℹ️INFO]\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
       "kind": "StringLiteral",
-      "offset": 1486,
-      "length": 10,
-      "value": "\"[⚠️]\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1521,
-      "length": 8,
-      "value": "\"[🔥]\""
+      "offset": 1587,
+      "length": 13,
+      "value": "\"[💬DEBUG]\""
     }
   ]
 }
