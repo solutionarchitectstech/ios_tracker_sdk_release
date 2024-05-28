@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SATrackingSDKStandard"
-  s.version          = "1.2.7"
+  s.version          = "1.2.8"
   s.summary          = "#{s.name} (iOS) #{s.version}"
 
   s.homepage         = "https://github.com/solutionarchitectstech/ios_tracker_sdk_release"
