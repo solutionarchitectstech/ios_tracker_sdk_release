@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name SATrackingSDKStandard
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SATrackingSDKStandard
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import CommonCrypto
 import CryptoKit
 import Foundation
@@ -14,16 +15,16 @@ import _SwiftConcurrencyShims
 public struct StopView : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var contentId: Swift.String
   public var contentName: Swift.String
-  public var value: Swift.Float
+  public var value: Swift.Double
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
-  public init(contentId: Swift.String, contentName: Swift.String, value: Swift.Float, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  public init(contentId: Swift.String, contentName: Swift.String, value: Swift.Double, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
 }
 public struct AdClick : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var placementId: Swift.String
-  public var width: Swift.Int
-  public var height: Swift.Int
+  public var width: Swift.Double
+  public var height: Swift.Double
   public var clickURL: Swift.String
   public var adType: SATrackingSDKStandard.AdType
   public var contentId: Swift.String?
@@ -31,15 +32,15 @@ public struct AdClick : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandar
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
-  public init(placementId: Swift.String, width: Swift.Int, height: Swift.Int, clickURL: Swift.String, adType: SATrackingSDKStandard.AdType, contentId: Swift.String? = nil, contentName: Swift.String? = nil, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  public init(placementId: Swift.String, width: Swift.Double, height: Swift.Double, clickURL: Swift.String, adType: SATrackingSDKStandard.AdType, contentId: Swift.String? = nil, contentName: Swift.String? = nil, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
 }
 public struct AddToCartItem : SATrackingSDKStandard.CustomParamsAware {
   public var sku: SATrackingSDKStandard.SKU
-  public var deltaQuantity: Swift.Float
-  public var quantity: Swift.Float
+  public var deltaQuantity: Swift.Double
+  public var quantity: Swift.Double
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
-  public init(sku: SATrackingSDKStandard.SKU, deltaQuantity: Swift.Float, quantity: Swift.Float, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  public init(sku: SATrackingSDKStandard.SKU, deltaQuantity: Swift.Double, quantity: Swift.Double, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
 }
 public protocol CustomParamsAware {
   var customParams: [Swift.String : Swift.String]? { get set }
@@ -47,17 +48,17 @@ public protocol CustomParamsAware {
 public struct SKU {
   public var skuId: Swift.String
   public var skuName: Swift.String
-  public var price: Swift.Float?
+  public var price: Swift.Double?
   public var currency: Swift.String?
   public var category: [SATrackingSDKStandard.Category]?
-  public init(skuId: Swift.String, skuName: Swift.String, price: Swift.Float? = nil, currency: Swift.String? = nil, category: [SATrackingSDKStandard.Category]? = nil)
+  public init(skuId: Swift.String, skuName: Swift.String, price: Swift.Double? = nil, currency: Swift.String? = nil, category: [SATrackingSDKStandard.Category]? = nil)
 }
 public enum AdType : Swift.String {
   case banner
   case video
   case native
   case product
-  case reach_media
+  case reachMedia
   case other
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
@@ -69,8 +70,8 @@ public protocol TrackerEvent {
 }
 public struct AdImp : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var placementId: Swift.String
-  public var width: Swift.Int
-  public var height: Swift.Int
+  public var width: Swift.Double
+  public var height: Swift.Double
   public var clickURL: Swift.String
   public var adType: SATrackingSDKStandard.AdType
   public var contentId: Swift.String?
@@ -78,7 +79,7 @@ public struct AdImp : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
-  public init(placementId: Swift.String, width: Swift.Int, height: Swift.Int, clickURL: Swift.String, adType: SATrackingSDKStandard.AdType, contentId: Swift.String? = nil, contentName: Swift.String? = nil, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  public init(placementId: Swift.String, width: Swift.Double, height: Swift.Double, clickURL: Swift.String, adType: SATrackingSDKStandard.AdType, contentId: Swift.String? = nil, contentName: Swift.String? = nil, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
 }
 public struct AddToCart : SATrackingSDKStandard.TrackerEvent {
   public var items: [SATrackingSDKStandard.AddToCartItem]
@@ -129,16 +130,17 @@ public struct Purchase : SATrackingSDKStandard.TrackerEvent {
 }
 extension Network.NWInterface.InterfaceType : Swift.CaseIterable {
   public static var allCases: [Network.NWInterface.InterfaceType]
+  @available(iOS 12.0, tvOS 12.0, watchOS 5.0, macOS 10.14, *)
   public typealias AllCases = [Network.NWInterface.InterfaceType]
 }
 public struct Scroll : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
-  public var value: Swift.Float
+  public var value: Swift.Double
   public var contentId: Swift.String
   public var contentName: Swift.String
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
-  public init(value: Swift.Float, contentId: Swift.String, contentName: Swift.String, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  public init(value: Swift.Double, contentId: Swift.String, contentName: Swift.String, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
 }
 public struct Click : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var value: Swift.String
@@ -151,10 +153,10 @@ public struct Click : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.
 }
 public struct PurchaseItem : SATrackingSDKStandard.CustomParamsAware {
   public var sku: SATrackingSDKStandard.SKU
-  public var quantity: Swift.Float
+  public var quantity: Swift.Double
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
-  public init(sku: SATrackingSDKStandard.SKU, quantity: Swift.Float, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  public init(sku: SATrackingSDKStandard.SKU, quantity: Swift.Double, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
 }
 public struct Search : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var value: Swift.String
