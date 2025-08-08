@@ -1,19 +1,9 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "SATrackingSDKStandard",
+    "printedName": "SATrackingSDKStandard",
     "children": [
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SATrackingSDKStandard",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
       {
         "kind": "Import",
         "name": "Foundation",
@@ -206,14 +196,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard8StopViewV5valueSfvp",
-            "mangledName": "$s21SATrackingSDKStandard8StopViewV5valueSfvp",
+            "usr": "s:21SATrackingSDKStandard8StopViewV5valueSdvp",
+            "mangledName": "$s21SATrackingSDKStandard8StopViewV5valueSdvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasStorage",
@@ -228,14 +218,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard8StopViewV5valueSfvg",
-                "mangledName": "$s21SATrackingSDKStandard8StopViewV5valueSfvg",
+                "usr": "s:21SATrackingSDKStandard8StopViewV5valueSdvg",
+                "mangledName": "$s21SATrackingSDKStandard8StopViewV5valueSdvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -252,14 +242,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard8StopViewV5valueSfvs",
-                "mangledName": "$s21SATrackingSDKStandard8StopViewV5valueSfvs",
+                "usr": "s:21SATrackingSDKStandard8StopViewV5valueSdvs",
+                "mangledName": "$s21SATrackingSDKStandard8StopViewV5valueSdvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -276,8 +266,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard8StopViewV5valueSfvM",
-                "mangledName": "$s21SATrackingSDKStandard8StopViewV5valueSfvM",
+                "usr": "s:21SATrackingSDKStandard8StopViewV5valueSdvM",
+                "mangledName": "$s21SATrackingSDKStandard8StopViewV5valueSdvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -705,9 +695,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
@@ -778,8 +768,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21SATrackingSDKStandard8StopViewV9contentId0E4Name5value3sku8category12customParamsACSS_SSSfAA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
-            "mangledName": "$s21SATrackingSDKStandard8StopViewV9contentId0E4Name5value3sku8category12customParamsACSS_SSSfAA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "usr": "s:21SATrackingSDKStandard8StopViewV9contentId0E4Name5value3sku8category12customParamsACSS_SSSdAA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "mangledName": "$s21SATrackingSDKStandard8StopViewV9contentId0E4Name5value3sku8category12customParamsACSS_SSSdAA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "AccessControl"
@@ -795,6 +785,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "TrackerEvent",
@@ -918,14 +922,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard7AdClickV5widthSivp",
-            "mangledName": "$s21SATrackingSDKStandard7AdClickV5widthSivp",
+            "usr": "s:21SATrackingSDKStandard7AdClickV5widthSdvp",
+            "mangledName": "$s21SATrackingSDKStandard7AdClickV5widthSdvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasStorage",
@@ -940,14 +944,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard7AdClickV5widthSivg",
-                "mangledName": "$s21SATrackingSDKStandard7AdClickV5widthSivg",
+                "usr": "s:21SATrackingSDKStandard7AdClickV5widthSdvg",
+                "mangledName": "$s21SATrackingSDKStandard7AdClickV5widthSdvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -964,14 +968,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard7AdClickV5widthSivs",
-                "mangledName": "$s21SATrackingSDKStandard7AdClickV5widthSivs",
+                "usr": "s:21SATrackingSDKStandard7AdClickV5widthSdvs",
+                "mangledName": "$s21SATrackingSDKStandard7AdClickV5widthSdvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -988,8 +992,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard7AdClickV5widthSivM",
-                "mangledName": "$s21SATrackingSDKStandard7AdClickV5widthSivM",
+                "usr": "s:21SATrackingSDKStandard7AdClickV5widthSdvM",
+                "mangledName": "$s21SATrackingSDKStandard7AdClickV5widthSdvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1003,14 +1007,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard7AdClickV6heightSivp",
-            "mangledName": "$s21SATrackingSDKStandard7AdClickV6heightSivp",
+            "usr": "s:21SATrackingSDKStandard7AdClickV6heightSdvp",
+            "mangledName": "$s21SATrackingSDKStandard7AdClickV6heightSdvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasStorage",
@@ -1025,14 +1029,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard7AdClickV6heightSivg",
-                "mangledName": "$s21SATrackingSDKStandard7AdClickV6heightSivg",
+                "usr": "s:21SATrackingSDKStandard7AdClickV6heightSdvg",
+                "mangledName": "$s21SATrackingSDKStandard7AdClickV6heightSdvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1049,14 +1053,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard7AdClickV6heightSivs",
-                "mangledName": "$s21SATrackingSDKStandard7AdClickV6heightSivs",
+                "usr": "s:21SATrackingSDKStandard7AdClickV6heightSdvs",
+                "mangledName": "$s21SATrackingSDKStandard7AdClickV6heightSdvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1073,8 +1077,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard7AdClickV6heightSivM",
-                "mangledName": "$s21SATrackingSDKStandard7AdClickV6heightSivM",
+                "usr": "s:21SATrackingSDKStandard7AdClickV6heightSdvM",
+                "mangledName": "$s21SATrackingSDKStandard7AdClickV6heightSdvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1886,15 +1890,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
@@ -2007,8 +2011,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21SATrackingSDKStandard7AdClickV11placementId5width6height8clickURL6adType07contentF00M4Name3sku8category12customParamsACSS_S2iSSAA0cL0OSSSgApA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
-            "mangledName": "$s21SATrackingSDKStandard7AdClickV11placementId5width6height8clickURL6adType07contentF00M4Name3sku8category12customParamsACSS_S2iSSAA0cL0OSSSgApA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "usr": "s:21SATrackingSDKStandard7AdClickV11placementId5width6height8clickURL6adType07contentF00M4Name3sku8category12customParamsACSS_S2dSSAA0cL0OSSSgApA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "mangledName": "$s21SATrackingSDKStandard7AdClickV11placementId5width6height8clickURL6adType07contentF00M4Name3sku8category12customParamsACSS_S2dSSAA0cL0OSSSgApA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "AccessControl"
@@ -2024,6 +2028,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "TrackerEvent",
@@ -2167,14 +2185,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvp",
-            "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvp",
+            "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySdvp",
+            "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySdvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasStorage",
@@ -2189,14 +2207,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvg",
-                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvg",
+                "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySdvg",
+                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySdvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2213,14 +2231,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvs",
-                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvs",
+                "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySdvs",
+                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySdvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2237,8 +2255,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvM",
-                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySfvM",
+                "usr": "s:21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySdvM",
+                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV13deltaQuantitySdvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2252,14 +2270,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard13AddToCartItemV8quantitySfvp",
-            "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV8quantitySfvp",
+            "usr": "s:21SATrackingSDKStandard13AddToCartItemV8quantitySdvp",
+            "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV8quantitySdvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasStorage",
@@ -2274,14 +2292,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard13AddToCartItemV8quantitySfvg",
-                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV8quantitySfvg",
+                "usr": "s:21SATrackingSDKStandard13AddToCartItemV8quantitySdvg",
+                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV8quantitySdvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2298,14 +2316,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard13AddToCartItemV8quantitySfvs",
-                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV8quantitySfvs",
+                "usr": "s:21SATrackingSDKStandard13AddToCartItemV8quantitySdvs",
+                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV8quantitySdvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2322,8 +2340,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard13AddToCartItemV8quantitySfvM",
-                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV8quantitySfvM",
+                "usr": "s:21SATrackingSDKStandard13AddToCartItemV8quantitySdvM",
+                "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV8quantitySdvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2635,15 +2653,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
@@ -2699,8 +2717,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21SATrackingSDKStandard13AddToCartItemV3sku13deltaQuantity8quantity8category12customParamsAcA3SKUV_S2fSayAA8CategoryVGSgSDyS2SGSgtcfc",
-            "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV3sku13deltaQuantity8quantity8category12customParamsAcA3SKUV_S2fSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "usr": "s:21SATrackingSDKStandard13AddToCartItemV3sku13deltaQuantity8quantity8category12customParamsAcA3SKUV_S2dSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "mangledName": "$s21SATrackingSDKStandard13AddToCartItemV3sku13deltaQuantity8quantity8category12customParamsAcA3SKUV_S2dSayAA8CategoryVGSgSDyS2SGSgtcfc",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "AccessControl"
@@ -2716,6 +2734,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomParamsAware",
@@ -2914,6 +2946,22 @@
         "moduleName": "SATrackingSDKStandard",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3109,21 +3157,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Float?",
+                "printedName": "Swift.Double?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard3SKUV5priceSfSgvp",
-            "mangledName": "$s21SATrackingSDKStandard3SKUV5priceSfSgvp",
+            "usr": "s:21SATrackingSDKStandard3SKUV5priceSdSgvp",
+            "mangledName": "$s21SATrackingSDKStandard3SKUV5priceSdSgvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasInitialValue",
@@ -3140,21 +3188,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Float?",
+                    "printedName": "Swift.Double?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard3SKUV5priceSfSgvg",
-                "mangledName": "$s21SATrackingSDKStandard3SKUV5priceSfSgvg",
+                "usr": "s:21SATrackingSDKStandard3SKUV5priceSdSgvg",
+                "mangledName": "$s21SATrackingSDKStandard3SKUV5priceSdSgvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3172,21 +3220,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.Float?",
+                    "printedName": "Swift.Double?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Float",
-                        "printedName": "Swift.Float",
-                        "usr": "s:Sf"
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard3SKUV5priceSfSgvs",
-                "mangledName": "$s21SATrackingSDKStandard3SKUV5priceSfSgvs",
+                "usr": "s:21SATrackingSDKStandard3SKUV5priceSdSgvs",
+                "mangledName": "$s21SATrackingSDKStandard3SKUV5priceSdSgvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3203,8 +3251,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard3SKUV5priceSfSgvM",
-                "mangledName": "$s21SATrackingSDKStandard3SKUV5priceSfSgvM",
+                "usr": "s:21SATrackingSDKStandard3SKUV5priceSdSgvM",
+                "mangledName": "$s21SATrackingSDKStandard3SKUV5priceSdSgvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3481,13 +3529,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Float?",
+                "printedName": "Swift.Double?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -3533,8 +3581,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21SATrackingSDKStandard3SKUV5skuId0D4Name5price8currency8categoryACSS_SSSfSgSSSgSayAA8CategoryVGSgtcfc",
-            "mangledName": "$s21SATrackingSDKStandard3SKUV5skuId0D4Name5price8currency8categoryACSS_SSSfSgSSSgSayAA8CategoryVGSgtcfc",
+            "usr": "s:21SATrackingSDKStandard3SKUV5skuId0D4Name5price8currency8categoryACSS_SSSdSgSSSgSayAA8CategoryVGSgtcfc",
+            "mangledName": "$s21SATrackingSDKStandard3SKUV5skuId0D4Name5price8currency8categoryACSS_SSSdSgSSSgSayAA8CategoryVGSgtcfc",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "AccessControl"
@@ -3548,6 +3596,22 @@
         "moduleName": "SATrackingSDKStandard",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3725,8 +3789,8 @@
           },
           {
             "kind": "Var",
-            "name": "reach_media",
-            "printedName": "reach_media",
+            "name": "reachMedia",
+            "printedName": "reachMedia",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -3756,8 +3820,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:21SATrackingSDKStandard6AdTypeO11reach_mediayA2CmF",
-            "mangledName": "$s21SATrackingSDKStandard6AdTypeO11reach_mediayA2CmF",
+            "usr": "s:21SATrackingSDKStandard6AdTypeO10reachMediayA2CmF",
+            "mangledName": "$s21SATrackingSDKStandard6AdTypeO10reachMediayA2CmF",
             "moduleName": "SATrackingSDKStandard"
           },
           {
@@ -3881,6 +3945,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3947,6 +4025,22 @@
         "moduleName": "SATrackingSDKStandard",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -4066,14 +4160,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard5AdImpV5widthSivp",
-            "mangledName": "$s21SATrackingSDKStandard5AdImpV5widthSivp",
+            "usr": "s:21SATrackingSDKStandard5AdImpV5widthSdvp",
+            "mangledName": "$s21SATrackingSDKStandard5AdImpV5widthSdvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasStorage",
@@ -4088,14 +4182,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard5AdImpV5widthSivg",
-                "mangledName": "$s21SATrackingSDKStandard5AdImpV5widthSivg",
+                "usr": "s:21SATrackingSDKStandard5AdImpV5widthSdvg",
+                "mangledName": "$s21SATrackingSDKStandard5AdImpV5widthSdvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4112,14 +4206,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard5AdImpV5widthSivs",
-                "mangledName": "$s21SATrackingSDKStandard5AdImpV5widthSivs",
+                "usr": "s:21SATrackingSDKStandard5AdImpV5widthSdvs",
+                "mangledName": "$s21SATrackingSDKStandard5AdImpV5widthSdvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4136,8 +4230,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard5AdImpV5widthSivM",
-                "mangledName": "$s21SATrackingSDKStandard5AdImpV5widthSivM",
+                "usr": "s:21SATrackingSDKStandard5AdImpV5widthSdvM",
+                "mangledName": "$s21SATrackingSDKStandard5AdImpV5widthSdvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4151,14 +4245,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard5AdImpV6heightSivp",
-            "mangledName": "$s21SATrackingSDKStandard5AdImpV6heightSivp",
+            "usr": "s:21SATrackingSDKStandard5AdImpV6heightSdvp",
+            "mangledName": "$s21SATrackingSDKStandard5AdImpV6heightSdvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasStorage",
@@ -4173,14 +4267,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard5AdImpV6heightSivg",
-                "mangledName": "$s21SATrackingSDKStandard5AdImpV6heightSivg",
+                "usr": "s:21SATrackingSDKStandard5AdImpV6heightSdvg",
+                "mangledName": "$s21SATrackingSDKStandard5AdImpV6heightSdvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4197,14 +4291,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard5AdImpV6heightSivs",
-                "mangledName": "$s21SATrackingSDKStandard5AdImpV6heightSivs",
+                "usr": "s:21SATrackingSDKStandard5AdImpV6heightSdvs",
+                "mangledName": "$s21SATrackingSDKStandard5AdImpV6heightSdvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4221,8 +4315,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard5AdImpV6heightSivM",
-                "mangledName": "$s21SATrackingSDKStandard5AdImpV6heightSivM",
+                "usr": "s:21SATrackingSDKStandard5AdImpV6heightSdvM",
+                "mangledName": "$s21SATrackingSDKStandard5AdImpV6heightSdvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -5034,15 +5128,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
@@ -5155,8 +5249,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21SATrackingSDKStandard5AdImpV11placementId5width6height8clickURL6adType07contentF00M4Name3sku8category12customParamsACSS_S2iSSAA0cL0OSSSgApA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
-            "mangledName": "$s21SATrackingSDKStandard5AdImpV11placementId5width6height8clickURL6adType07contentF00M4Name3sku8category12customParamsACSS_S2iSSAA0cL0OSSSgApA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "usr": "s:21SATrackingSDKStandard5AdImpV11placementId5width6height8clickURL6adType07contentF00M4Name3sku8category12customParamsACSS_S2dSSAA0cL0OSSSgApA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "mangledName": "$s21SATrackingSDKStandard5AdImpV11placementId5width6height8clickURL6adType07contentF00M4Name3sku8category12customParamsACSS_S2dSSAA0cL0OSSSgApA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "AccessControl"
@@ -5174,6 +5268,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "TrackerEvent",
             "printedName": "TrackerEvent",
             "usr": "s:21SATrackingSDKStandard12TrackerEventP",
@@ -5186,16 +5294,6 @@
             "usr": "s:21SATrackingSDKStandard17CustomParamsAwareP",
             "mangledName": "$s21SATrackingSDKStandard17CustomParamsAwareP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SATrackingSDKStandard",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -5387,6 +5485,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "TrackerEvent",
@@ -5720,6 +5832,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -6462,6 +6588,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "TrackerEvent",
             "printedName": "TrackerEvent",
             "usr": "s:21SATrackingSDKStandard12TrackerEventP",
@@ -6840,6 +6980,22 @@
         "moduleName": "SATrackingSDKStandard",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7104,7 +7260,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -7341,6 +7513,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "TrackerEvent",
             "printedName": "TrackerEvent",
             "usr": "s:21SATrackingSDKStandard12TrackerEventP",
@@ -7407,14 +7593,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard6ScrollV5valueSfvp",
-            "mangledName": "$s21SATrackingSDKStandard6ScrollV5valueSfvp",
+            "usr": "s:21SATrackingSDKStandard6ScrollV5valueSdvp",
+            "mangledName": "$s21SATrackingSDKStandard6ScrollV5valueSdvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasStorage",
@@ -7429,14 +7615,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard6ScrollV5valueSfvg",
-                "mangledName": "$s21SATrackingSDKStandard6ScrollV5valueSfvg",
+                "usr": "s:21SATrackingSDKStandard6ScrollV5valueSdvg",
+                "mangledName": "$s21SATrackingSDKStandard6ScrollV5valueSdvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -7453,14 +7639,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard6ScrollV5valueSfvs",
-                "mangledName": "$s21SATrackingSDKStandard6ScrollV5valueSfvs",
+                "usr": "s:21SATrackingSDKStandard6ScrollV5valueSdvs",
+                "mangledName": "$s21SATrackingSDKStandard6ScrollV5valueSdvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -7477,8 +7663,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard6ScrollV5valueSfvM",
-                "mangledName": "$s21SATrackingSDKStandard6ScrollV5valueSfvM",
+                "usr": "s:21SATrackingSDKStandard6ScrollV5valueSdvM",
+                "mangledName": "$s21SATrackingSDKStandard6ScrollV5valueSdvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8064,9 +8250,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
@@ -8149,8 +8335,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21SATrackingSDKStandard6ScrollV5value9contentId0E4Name3sku8category12customParamsACSf_S2SAA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
-            "mangledName": "$s21SATrackingSDKStandard6ScrollV5value9contentId0E4Name3sku8category12customParamsACSf_S2SAA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "usr": "s:21SATrackingSDKStandard6ScrollV5value9contentId0E4Name3sku8category12customParamsACSd_S2SAA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "mangledName": "$s21SATrackingSDKStandard6ScrollV5value9contentId0E4Name3sku8category12customParamsACSd_S2SAA3SKUVSgSayAA8CategoryVGSgSDyS2SGSgtcfc",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "AccessControl"
@@ -8166,6 +8352,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "TrackerEvent",
@@ -8995,6 +9195,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "TrackerEvent",
             "printedName": "TrackerEvent",
             "usr": "s:21SATrackingSDKStandard12TrackerEventP",
@@ -9116,14 +9330,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               }
             ],
             "declKind": "Var",
-            "usr": "s:21SATrackingSDKStandard12PurchaseItemV8quantitySfvp",
-            "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV8quantitySfvp",
+            "usr": "s:21SATrackingSDKStandard12PurchaseItemV8quantitySdvp",
+            "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV8quantitySdvp",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "HasStorage",
@@ -9138,14 +9352,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard12PurchaseItemV8quantitySfvg",
-                "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV8quantitySfvg",
+                "usr": "s:21SATrackingSDKStandard12PurchaseItemV8quantitySdvg",
+                "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV8quantitySdvg",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "get"
@@ -9162,14 +9376,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard12PurchaseItemV8quantitySfvs",
-                "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV8quantitySfvs",
+                "usr": "s:21SATrackingSDKStandard12PurchaseItemV8quantitySdvs",
+                "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV8quantitySdvs",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "set"
@@ -9186,8 +9400,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:21SATrackingSDKStandard12PurchaseItemV8quantitySfvM",
-                "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV8quantitySfvM",
+                "usr": "s:21SATrackingSDKStandard12PurchaseItemV8quantitySdvM",
+                "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV8quantitySdvM",
                 "moduleName": "SATrackingSDKStandard",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -9499,9 +9713,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "usr": "s:Sf"
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
               },
               {
                 "kind": "TypeNominal",
@@ -9557,8 +9771,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:21SATrackingSDKStandard12PurchaseItemV3sku8quantity8category12customParamsAcA3SKUV_SfSayAA8CategoryVGSgSDyS2SGSgtcfc",
-            "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV3sku8quantity8category12customParamsAcA3SKUV_SfSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "usr": "s:21SATrackingSDKStandard12PurchaseItemV3sku8quantity8category12customParamsAcA3SKUV_SdSayAA8CategoryVGSgSDyS2SGSgtcfc",
+            "mangledName": "$s21SATrackingSDKStandard12PurchaseItemV3sku8quantity8category12customParamsAcA3SKUV_SdSayAA8CategoryVGSgSDyS2SGSgtcfc",
             "moduleName": "SATrackingSDKStandard",
             "declAttributes": [
               "AccessControl"
@@ -9574,6 +9788,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomParamsAware",
@@ -10115,6 +10343,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "TrackerEvent",
             "printedName": "TrackerEvent",
             "usr": "s:21SATrackingSDKStandard12TrackerEventP",
@@ -10565,6 +10807,22 @@
         "moduleName": "SATrackingSDKStandard",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -10641,6 +10899,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "LocalizedError",
@@ -11325,6 +11597,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CaseIterable",
             "printedName": "CaseIterable",
             "children": [
@@ -11374,11 +11660,11 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/ApiRepositoryGuaranteedDelivery.swift",
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/domain\/model\/AdType.swift",
       "kind": "StringLiteral",
-      "offset": 1200,
-      "length": 31,
-      "value": "\"SATrackingSDKStandard.ApiRepositoryGuaranteedDelivery\""
+      "offset": 1309,
+      "length": 13,
+      "value": "\"reach_media\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/domain\/model\/AddToCart.swift",
@@ -11390,196 +11676,112 @@
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3101,
+      "offset": 1768,
+      "length": 9,
+      "value": "\"app_ios\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3181,
+      "length": 4,
+      "value": "\"sv\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3208,
       "length": 5,
       "value": "\"bid\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3132,
+      "offset": 3239,
       "length": 5,
       "value": "\"pid\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3163,
+      "offset": 3270,
       "length": 5,
       "value": "\"sid\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3188,
+      "offset": 3295,
       "length": 5,
       "value": "\"uid\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3217,
+      "offset": 3324,
       "length": 3,
       "value": "\"v\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3246,
+      "offset": 3353,
       "length": 3,
       "value": "\"t\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3274,
+      "offset": 3381,
       "length": 4,
       "value": "\"tz\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3304,
+      "offset": 3411,
       "length": 4,
       "value": "\"et\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3339,
+      "offset": 3446,
       "length": 13,
       "value": "\"add_to_cart\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3382,
+      "offset": 3489,
       "length": 10,
       "value": "\"purchase\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3418,
+      "offset": 3530,
       "length": 12,
       "value": "\"start_view\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3455,
+      "offset": 3572,
       "length": 11,
       "value": "\"stop_view\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3508,
+      "offset": 3625,
       "length": 8,
       "value": "\"ad_imp\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
       "kind": "StringLiteral",
-      "offset": 3540,
-      "length": 10,
-      "value": "\"ad_click\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3101,
-      "length": 5,
-      "value": "\"bid\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3132,
-      "length": 5,
-      "value": "\"pid\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3163,
-      "length": 5,
-      "value": "\"sid\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3188,
-      "length": 5,
-      "value": "\"uid\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3217,
-      "length": 3,
-      "value": "\"v\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3246,
-      "length": 3,
-      "value": "\"t\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3274,
-      "length": 4,
-      "value": "\"tz\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3304,
-      "length": 4,
-      "value": "\"et\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3339,
-      "length": 13,
-      "value": "\"add_to_cart\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3382,
-      "length": 10,
-      "value": "\"purchase\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3418,
-      "length": 12,
-      "value": "\"start_view\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3455,
-      "length": 11,
-      "value": "\"stop_view\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3508,
-      "length": 8,
-      "value": "\"ad_imp\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/TrackerRequest.swift",
-      "kind": "StringLiteral",
-      "offset": 3540,
+      "offset": 3657,
       "length": 10,
       "value": "\"ad_click\""
     },
@@ -11588,7 +11790,7 @@
       "kind": "StringLiteral",
       "offset": 1262,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"1.2.0\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/TechTracker.swift",
@@ -11684,58 +11886,51 @@
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 4840,
+      "offset": 4847,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 5649,
+      "offset": 5663,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 6450,
+      "offset": 6464,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 7247,
+      "offset": 7261,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8052,
+      "offset": 8066,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 8853,
+      "offset": 8867,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 9666,
+      "offset": 9680,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/repository\/TrackerEventRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 1201,
-      "length": 26,
-      "value": "\"SATrackingSDKStandard.TrackerEventRepositoryImpl\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/Log.swift",
@@ -11757,13 +11952,6 @@
       "offset": 1635,
       "length": 17,
       "value": "\"failed_requests\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/FailedRequestCacheRepositoryImpl.swift",
-      "kind": "StringLiteral",
-      "offset": 5914,
-      "length": 17,
-      "value": "\"SATrackingSDKStandard.URLRequestWrapper\""
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/repository\/NetworkMonitorImpl.swift",
@@ -11801,263 +11989,102 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1239,
-      "length": 11,
-      "value": "\"NO_EVENTS\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1272,
-      "length": 13,
-      "value": "\"ADD_TO_CART\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1306,
-      "length": 10,
-      "value": "\"PURCHASE\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1338,
-      "length": 12,
-      "value": "\"START_VIEW\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1371,
-      "length": 11,
-      "value": "\"STOP_VIEW\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1400,
-      "length": 8,
-      "value": "\"AD_IMP\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1428,
-      "length": 10,
-      "value": "\"AD_CLICK\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1456,
-      "length": 7,
-      "value": "\"CLICK\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1482,
-      "length": 8,
-      "value": "\"SEARCH\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1509,
-      "length": 8,
-      "value": "\"SCROLL\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1239,
-      "length": 11,
-      "value": "\"NO_EVENTS\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1272,
-      "length": 13,
-      "value": "\"ADD_TO_CART\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1306,
-      "length": 10,
-      "value": "\"PURCHASE\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1338,
-      "length": 12,
-      "value": "\"START_VIEW\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1371,
-      "length": 11,
-      "value": "\"STOP_VIEW\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1400,
-      "length": 8,
-      "value": "\"AD_IMP\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1428,
-      "length": 10,
-      "value": "\"AD_CLICK\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1456,
-      "length": 7,
-      "value": "\"CLICK\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1482,
-      "length": 8,
-      "value": "\"SEARCH\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
-      "kind": "StringLiteral",
-      "offset": 1509,
-      "length": 8,
-      "value": "\"SCROLL\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1346,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1361,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1378,
-      "length": 4,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1392,
-      "length": 5,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1346,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1361,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1378,
-      "length": 4,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1392,
-      "length": 5,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1346,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1361,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1378,
-      "length": 4,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1392,
-      "length": 5,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1438,
-      "length": 13,
-      "value": "\"[🔥FATAL]\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/SkuDTO.swift",
       "kind": "StringLiteral",
       "offset": 1474,
-      "length": 15,
-      "value": "\"[‼️ERROR]\""
+      "length": 5,
+      "value": "\"cur\""
     },
     {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 1512,
-      "length": 14,
-      "value": "\"[⚠️WARN]\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1551,
-      "length": 14,
-      "value": "\"[ℹ️INFO]\""
-    },
-    {
-      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 1587,
+      "offset": 1240,
       "length": 13,
-      "value": "\"[💬DEBUG]\""
+      "value": "\"add_to_cart\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1274,
+      "length": 10,
+      "value": "\"purchase\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1306,
+      "length": 12,
+      "value": "\"start_view\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 11,
+      "value": "\"stop_view\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 8,
+      "value": "\"ad_imp\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1396,
+      "length": 10,
+      "value": "\"ad_click\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1424,
+      "length": 7,
+      "value": "\"click\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1450,
+      "length": 8,
+      "value": "\"search\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/SATrackingSDKStandard\/data\/dto\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1477,
+      "length": 8,
+      "value": "\"scroll\""
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1346,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1361,
+      "length": 7,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 5,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/sergeymuravev\/workspace\/prj\/solution-architects\/ios\/ios-tracker\/SATrackingSDK\/Common\/data\/logger\/LogEvent.swift",
