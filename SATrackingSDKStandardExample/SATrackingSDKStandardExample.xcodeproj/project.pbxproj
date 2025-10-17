@@ -14,7 +14,6 @@
 		105B7BD8298A62D60006805F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B7BD6298A62D60006805F /* LaunchScreen.storyboard */; };
 		105B7BE1298A86740006805F /* SATrackingSDKStandard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105B7BE0298A86740006805F /* SATrackingSDKStandard.framework */; };
 		105B7BE2298A86740006805F /* SATrackingSDKStandard.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 105B7BE0298A86740006805F /* SATrackingSDKStandard.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D9E88D232163C46A2FB16C50 /* Pods_SATrackingSDKStandardExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C426EE1F29E38546524A86 /* Pods_SATrackingSDKStandardExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,9 +39,6 @@
 		105B7BD7298A62D60006805F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		105B7BD9298A62D60006805F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		105B7BE0298A86740006805F /* SATrackingSDKStandard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SATrackingSDKStandard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3C426EE1F29E38546524A86 /* Pods_SATrackingSDKStandardExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SATrackingSDKStandardExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABBBF27B9B404FCE2A7C319 /* Pods-SATrackingSDKStandardExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATrackingSDKStandardExample.release.xcconfig"; path = "Target Support Files/Pods-SATrackingSDKStandardExample/Pods-SATrackingSDKStandardExample.release.xcconfig"; sourceTree = "<group>"; };
-		FC515B68CD548B0C8EA8B5BA /* Pods-SATrackingSDKStandardExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SATrackingSDKStandardExample.debug.xcconfig"; path = "Target Support Files/Pods-SATrackingSDKStandardExample/Pods-SATrackingSDKStandardExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +47,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				105B7BE1298A86740006805F /* SATrackingSDKStandard.framework in Frameworks */,
-				D9E88D232163C46A2FB16C50 /* Pods_SATrackingSDKStandardExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +59,6 @@
 				105B7BCA298A62D50006805F /* SATrackingSDKStandardExample */,
 				105B7BC9298A62D50006805F /* Products */,
 				105B7BDF298A86740006805F /* Frameworks */,
-				BE8F85CC113C292C3E123161 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,19 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				105B7BE0298A86740006805F /* SATrackingSDKStandard.framework */,
-				A3C426EE1F29E38546524A86 /* Pods_SATrackingSDKStandardExample.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BE8F85CC113C292C3E123161 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FC515B68CD548B0C8EA8B5BA /* Pods-SATrackingSDKStandardExample.debug.xcconfig */,
-				AABBBF27B9B404FCE2A7C319 /* Pods-SATrackingSDKStandardExample.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,12 +98,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 105B7BDC298A62D60006805F /* Build configuration list for PBXNativeTarget "SATrackingSDKStandardExample" */;
 			buildPhases = (
-				63B5B887AE428348AF32CC16 /* [CP] Check Pods Manifest.lock */,
 				105B7BC4298A62D50006805F /* Sources */,
 				105B7BC5298A62D50006805F /* Frameworks */,
 				105B7BC6298A62D50006805F /* Resources */,
 				105B7BE3298A86740006805F /* Embed Frameworks */,
-				6AF6EC6068E41D189D40A43B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,48 +157,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		63B5B887AE428348AF32CC16 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SATrackingSDKStandardExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6AF6EC6068E41D189D40A43B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SATrackingSDKStandardExample/Pods-SATrackingSDKStandardExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SATrackingSDKStandardExample/Pods-SATrackingSDKStandardExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SATrackingSDKStandardExample/Pods-SATrackingSDKStandardExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		105B7BC4298A62D50006805F /* Sources */ = {
@@ -367,12 +306,11 @@
 		};
 		105B7BDD298A62D60006805F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC515B68CD548B0C8EA8B5BA /* Pods-SATrackingSDKStandardExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 99496FTLM8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SATrackingSDKStandardExample/Info.plist;
@@ -387,7 +325,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.solutionarchitects.SATrackingSDKStandardExample;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.solutionarchitects.SATrackingSDKStandard.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -397,12 +335,11 @@
 		};
 		105B7BDE298A62D60006805F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AABBBF27B9B404FCE2A7C319 /* Pods-SATrackingSDKStandardExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0.1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 99496FTLM8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SATrackingSDKStandardExample/Info.plist;
@@ -417,7 +354,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = tech.solutionarchitects.SATrackingSDKStandardExample;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.solutionarchitects.SATrackingSDKStandard.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

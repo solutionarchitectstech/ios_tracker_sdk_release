@@ -303,14 +303,6 @@ class ViewController: UIViewController {
                         "custom_param1": "value1",
                         "custom_param2": "value2"
                     ]
-                ),
-                AddToCartItem(
-                    sku: SKU(
-                        skuId: "2",
-                        skuName: "Ozone"
-                    ),
-                    deltaQuantity: 1.0,
-                    quantity: 2.0
                 )
             ]
         )
@@ -344,13 +336,6 @@ class ViewController: UIViewController {
                         "custom_param1": "value1",
                         "custom_param2": "value2"
                     ]
-                ),
-                PurchaseItem(
-                    sku: SKU(
-                        skuId: "2",
-                        skuName: "Ozone"
-                    ),
-                    quantity: 2.0
                 )
             ]
         )
