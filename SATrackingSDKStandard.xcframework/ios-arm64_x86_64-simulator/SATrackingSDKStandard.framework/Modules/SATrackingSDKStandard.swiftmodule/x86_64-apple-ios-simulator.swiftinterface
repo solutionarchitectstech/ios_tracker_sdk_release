@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SATrackingSDKStandard
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import CommonCrypto
 import CryptoKit
 import Foundation
@@ -19,7 +19,13 @@ public struct StopView : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStanda
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(contentId: Swift.String, contentName: Swift.String, value: Swift.Double, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.StopView : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AdClick : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var placementId: Swift.String
@@ -32,7 +38,13 @@ public struct AdClick : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandar
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(placementId: Swift.String, width: Swift.Double, height: Swift.Double, clickURL: Swift.String, adType: SATrackingSDKStandard.AdType, contentId: Swift.String? = nil, contentName: Swift.String? = nil, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.AdClick : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AddToCartItem : SATrackingSDKStandard.CustomParamsAware {
   public var sku: SATrackingSDKStandard.SKU
@@ -40,10 +52,18 @@ public struct AddToCartItem : SATrackingSDKStandard.CustomParamsAware {
   public var quantity: Swift.Double
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(sku: SATrackingSDKStandard.SKU, deltaQuantity: Swift.Double, quantity: Swift.Double, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.AddToCartItem : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol CustomParamsAware {
+  #if compiler(>=5.3) && $NonescapableTypes
   var customParams: [Swift.String : Swift.String]? { get set }
+  #endif
 }
 public struct SKU {
   public var skuId: Swift.String
@@ -51,7 +71,13 @@ public struct SKU {
   public var price: Swift.Double?
   public var currency: Swift.String?
   public var category: [SATrackingSDKStandard.Category]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(skuId: Swift.String, skuName: Swift.String, price: Swift.Double? = nil, currency: Swift.String? = nil, category: [SATrackingSDKStandard.Category]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.SKU : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum AdType : Swift.String {
   case banner
@@ -60,13 +86,17 @@ public enum AdType : Swift.String {
   case product
   case reachMedia
   case other
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
-public protocol TrackerEvent {
+extension SATrackingSDKStandard.AdType : Swift.Codable {
+}
+public protocol TrackerEvent : Swift.Decodable, Swift.Encodable {
 }
 public struct AdImp : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var placementId: Swift.String
@@ -79,11 +109,21 @@ public struct AdImp : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(placementId: Swift.String, width: Swift.Double, height: Swift.Double, clickURL: Swift.String, adType: SATrackingSDKStandard.AdType, contentId: Swift.String? = nil, contentName: Swift.String? = nil, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.AdImp : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct AddToCart : SATrackingSDKStandard.TrackerEvent {
   public var items: [SATrackingSDKStandard.AddToCartItem]
   public init(items: [SATrackingSDKStandard.AddToCartItem] = [])
+}
+extension SATrackingSDKStandard.AddToCart : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum ApiError : Swift.Error, Swift.CustomStringConvertible, Foundation.LocalizedError {
   case networkFailed(error: any Swift.Error)
@@ -92,9 +132,11 @@ public enum ApiError : Swift.Error, Swift.CustomStringConvertible, Foundation.Lo
   public var description: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public struct StartView : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var contentId: Swift.String
@@ -102,12 +144,20 @@ public struct StartView : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStand
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(contentId: Swift.String, contentName: Swift.String, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.StartView : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension Swift.String : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 public struct TrackerOptions {
   public let partnerId: Swift.String
@@ -121,12 +171,16 @@ public struct TrackerOptions {
   public static let shared: SATrackingSDKStandard.TechTracker
   public var uid: Swift.String?
   public static func initialize(options: SATrackingSDKStandard.TrackerOptions)
-  public func event(path: Swift.String = "", event: any SATrackingSDKStandard.TrackerEvent, block: @escaping ((any Swift.Error)?) -> Swift.Void = { _ in })
+  public func event(event: any SATrackingSDKStandard.TrackerEvent)
   @objc deinit
 }
 public struct Purchase : SATrackingSDKStandard.TrackerEvent {
   public var items: [SATrackingSDKStandard.PurchaseItem]
   public init(items: [SATrackingSDKStandard.PurchaseItem] = [])
+}
+extension SATrackingSDKStandard.Purchase : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension Network.NWInterface.InterfaceType : Swift.CaseIterable {
   public static var allCases: [Network.NWInterface.InterfaceType]
@@ -140,7 +194,13 @@ public struct Scroll : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(value: Swift.Double, contentId: Swift.String, contentName: Swift.String, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.Scroll : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Click : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var value: Swift.String
@@ -149,26 +209,50 @@ public struct Click : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.
   public var sku: SATrackingSDKStandard.SKU?
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(value: Swift.String, contentId: Swift.String, contentName: Swift.String, sku: SATrackingSDKStandard.SKU? = nil, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.Click : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct PurchaseItem : SATrackingSDKStandard.CustomParamsAware {
   public var sku: SATrackingSDKStandard.SKU
   public var quantity: Swift.Double
   public var category: [SATrackingSDKStandard.Category]?
   public var customParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(sku: SATrackingSDKStandard.SKU, quantity: Swift.Double, category: [SATrackingSDKStandard.Category]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.PurchaseItem : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Search : SATrackingSDKStandard.TrackerEvent, SATrackingSDKStandard.CustomParamsAware {
   public var value: Swift.String
   public var filter: [Swift.String : [Swift.String]]?
   public var customParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(value: Swift.String, filter: [Swift.String : [Swift.String]]? = nil, customParams: [Swift.String : Swift.String]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.Search : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Category {
   public var categoryId: Swift.String?
   public var categoryName: Swift.String
   public var children: [SATrackingSDKStandard.Category]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(categoryId: Swift.String? = nil, categoryName: Swift.String, children: [SATrackingSDKStandard.Category]? = nil)
+  #endif
+}
+extension SATrackingSDKStandard.Category : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension SATrackingSDKStandard.AdType : Swift.Equatable {}
 extension SATrackingSDKStandard.AdType : Swift.Hashable {}
