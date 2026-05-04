@@ -12,7 +12,7 @@
 		105B7BD3298A62D50006805F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B7BD1298A62D50006805F /* Main.storyboard */; };
 		105B7BD5298A62D60006805F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105B7BD4298A62D60006805F /* Assets.xcassets */; };
 		105B7BD8298A62D60006805F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 105B7BD6298A62D60006805F /* LaunchScreen.storyboard */; };
-		1074B85B2FA8523F00FBDF06 /* SATrackingSDKStandard in Frameworks */ = {isa = PBXBuildFile; productRef = 1074B85A2FA8523F00FBDF06 /* SATrackingSDKStandard */; };
+		1074B8642FA8583700FBDF06 /* SATrackingSDKStandard in Frameworks */ = {isa = PBXBuildFile; productRef = 1074B8632FA8583700FBDF06 /* SATrackingSDKStandard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1074B85B2FA8523F00FBDF06 /* SATrackingSDKStandard in Frameworks */,
+				1074B8642FA8583700FBDF06 /* SATrackingSDKStandard in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +133,7 @@
 			);
 			mainGroup = 105B7BBF298A62D50006805F;
 			packageReferences = (
-				1074B8592FA8523F00FBDF06 /* XCRemoteSwiftPackageReference "ios_tracker_sdk_release" */,
+				1074B8622FA8583700FBDF06 /* XCRemoteSwiftPackageReference "ios_tracker_sdk_release" */,
 			);
 			productRefGroup = 105B7BC9298A62D50006805F /* Products */;
 			projectDirPath = "";
@@ -385,7 +385,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1074B8592FA8523F00FBDF06 /* XCRemoteSwiftPackageReference "ios_tracker_sdk_release" */ = {
+		1074B8622FA8583700FBDF06 /* XCRemoteSwiftPackageReference "ios_tracker_sdk_release" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/solutionarchitectstech/ios_tracker_sdk_release";
 			requirement = {
@@ -396,9 +396,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1074B85A2FA8523F00FBDF06 /* SATrackingSDKStandard */ = {
+		1074B8632FA8583700FBDF06 /* SATrackingSDKStandard */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1074B8592FA8523F00FBDF06 /* XCRemoteSwiftPackageReference "ios_tracker_sdk_release" */;
+			package = 1074B8622FA8583700FBDF06 /* XCRemoteSwiftPackageReference "ios_tracker_sdk_release" */;
 			productName = SATrackingSDKStandard;
 		};
 /* End XCSwiftPackageProductDependency section */

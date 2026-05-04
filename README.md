@@ -6,6 +6,5 @@ Please see detailed documentation below or in the following link:
 
 # Tracking Demo app
 
-1. pod install
-2. Open [SATrackingSDKStandardExample.xcworkspace](SATrackingSDKStandardExample.xcworkspace) in the Xcode.
-3. Run application
+1. Open [Examples/SATrackingSDKStandardExample/SATrackingSDKStandardExample.xcodeproj](Examples/SATrackingSDKStandardExample/SATrackingSDKStandardExample.xcodeproj) in the Xcode.
+2. Run the app.
