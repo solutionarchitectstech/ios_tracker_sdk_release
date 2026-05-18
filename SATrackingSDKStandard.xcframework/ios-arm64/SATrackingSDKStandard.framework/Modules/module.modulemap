@@ -7,5 +7,4 @@ framework module SATrackingSDKStandard {
 
 module SATrackingSDKStandard.Swift {
   header "SATrackingSDKStandard-Swift.h"
-  requires objc
 }

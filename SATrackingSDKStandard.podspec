@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SATrackingSDKStandard"
-  s.version          = "1.5.0"
+  s.version          = "1.6.0"
   s.summary          = "#{s.name} (iOS) #{s.version}"
 
   s.homepage         = "https://github.com/solutionarchitectstech/ios_tracker_sdk_release"
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks  = "#{s.name}.xcframework"
 
   s.platform = :ios
-  s.ios.deployment_target = '12.0'
-  s.swift_version = '5.0'
+  s.ios.deployment_target = '17.0'
+  s.swift_version = '6.2'
 end
