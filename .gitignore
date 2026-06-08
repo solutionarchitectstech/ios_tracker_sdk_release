@@ -1,47 +1,47 @@
-# Ignore OS generated files and commons
-.DS_Store*
-ehthumbs.db
-Thumbs.db
-*.tmp
-*.log
-*.swp
-tmp
-null
-*~
+# Created by https://gitignore.org
+# Swift.gitignore
 
-# GIT specific
-!.gitkeep
-
-# Ignore IDE and build tools
-.idea/
-*.iml
-*.ipr
-*.iws
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
+# User settings
 xcuserdata/
-*.xcuserdatad
-*.xcscmblueprint
-*.xccheckout
-*.moved-aside
-xcproject4
-DerivedData
-Index
-Build
-output/
-build/
-Pods
 
 # Obj-C/Swift specific
 *.hmap
+
+# App packaging
 *.ipa
+*.dSYM.zip
+*.dSYM
 
 # Playgrounds
 timeline.xctimeline
 playground.xcworkspace
+
+# Swift Package Manager
+
+# Packages/ - Swift Package Manager dependencies directory
+#   - Contains resolved package sources downloaded locally.
+#   - Should NOT be committed because:
+#     - It's regenerated from Package.resolved when running swift package update or building.
+#     - Keeping it saves build time during development but bloats the repo.
+#     - Different team members might have different local package versions
+Packages/
+
+# Package.pins – Deprecated SPM lock format (SPM < Swift 5.1)
+#   - Obsolete, but included for backwards compatibility with older projects.
+#   - Modern projects use Package.resolved instead.
+Package.pins
+
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+.swiftpm
+.build/
+DerivedData/
+# Не игнорируем mirrors.json, так как он используется для работы с зависимостями
+!.swiftpm/configuration/mirrors.json
+
+# Tools
+coverage.json
+*.xcresult
+report.*
+coverage
+test-reports

@@ -41,7 +41,6 @@ DerivedData/
 
 # Tools
 coverage.json
-Package.env
 *.xcresult
 report.*
 coverage
