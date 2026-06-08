@@ -22,5 +22,5 @@ pod 'SATrackingSDKStandard', :git => 'https://github.com/solutionarchitectstech/
 
 # Tracking Demo app
 
-1. Open [Examples/SATrackingSDKStandardExample.xcodeproj](Examples/SATrackingSDKStandardExample.xcodeproj) in the Xcode.
+1. Open [Examples/SATrackingSDKStandardExample/SATrackingSDKStandardExample.xcodeproj](Examples/SATrackingSDKStandardExample/SATrackingSDKStandardExample.xcodeproj) in the Xcode.
 2. Run application
